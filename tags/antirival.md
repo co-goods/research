@@ -1,23 +1,30 @@
 ---
-name: "Antirival"
-slug: "antirival"
-type: "tag"
+name: Antirival
+slug: antirival
+type: tag
 template_version: 1
-editor: "pontus-karlsson"
-category: "economic_theory"
-description: "Goods that exhibit increasing returns to shared use, becoming more valuable as more people use them simultaneously"
-usage_guidelines: [
-  "Use for content discussing goods with positive network effects",
-  "Apply to analysis of sharing economy platforms and network-based products",
-  "Tag theoretical discussions about goods classification beyond rival/nonrival",
-  "Use when discussing increasing returns to scale in shared consumption"
-]
-related_tags: ["network-effects", "sharing-economy", "commons", "goods-theory", "platform-economics"]
-tagged_content_types: ["insights", "sources", "contributors"]
-status: "active"
-evolution_notes: "Introduced based on Olleros (2018) foundational work on antirival goods theory"
-created: "2025-09-11"
-updated: "2025-09-11"
+editor: pontus-karlsson
+category: economic_theory
+description: Goods that exhibit increasing returns to shared use, becoming more valuable as more people use them simultaneously
+usage_guidelines:
+  - Use for content discussing goods with positive network effects
+  - Apply to analysis of sharing economy platforms and network-based products
+  - Tag theoretical discussions about goods classification beyond rival/nonrival
+  - Use when discussing increasing returns to scale in shared consumption
+related_tags:
+  - network-effects
+  - sharing-economy
+  - commons
+  - goods-theory
+  - platform-economics
+tagged_content_types:
+  - insights
+  - sources
+  - contributors
+status: active
+evolution_notes: Introduced based on Olleros (2018) foundational work on antirival goods theory
+created: 2025-09-11
+updated: 2025-09-30T13:11
 ---
 
 # Antirival

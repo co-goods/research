@@ -1,17 +1,17 @@
 ---
-name: "Pontus Karlsson"
-slug: "pontus-karlsson"
-type: "contributor"
+name: Pontus Karlsson
+slug: pontus-karlsson
+type: contributor
 template_version: 1
-role: "Project Lead"
+role: Project Lead
 email: ""
-github: "pontuskarlsson"
-bio: "Project lead for the co-goods research initiative"
+github: pontuskarlsson
+bio: Project lead for the co-goods research initiative
 expertise: []
 tags: []
-status: "active"
-created: "2025-09-11"
-updated: "2025-09-11"
+status: active
+created: 2025-09-11
+updated: 2025-09-30T13:11
 ---
 
 # Pontus Karlsson

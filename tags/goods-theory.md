@@ -1,23 +1,28 @@
 ---
-name: "Goods Theory"
-slug: "goods-theory"
-type: "tag"
+name: Goods Theory
+slug: goods-theory
+type: tag
 template_version: 1
-editor: "pontus-karlsson"
-category: "economic_theory"
-description: "Economic framework for classifying and understanding different types of goods based on rivalry, excludability, and consumption characteristics"
-usage_guidelines: [
-  "Use for content discussing economic classification of goods (public, private, club, common)",
-  "Apply to theoretical analysis of good properties and characteristics",
-  "Tag discussions of rivalry, excludability, and consumption patterns",
-  "Use when examining new or hybrid categories of goods"
-]
-related_tags: ["antirival", "public-goods", "private-goods", "economic-theory"]
-tagged_content_types: ["insights", "sources"]
-status: "active"
-evolution_notes: "Created to support Olleros antirival goods analysis"
-created: "2025-09-11"
-updated: "2025-09-11"
+editor: pontus-karlsson
+category: economic_theory
+description: Economic framework for classifying and understanding different types of goods based on rivalry, excludability, and consumption characteristics
+usage_guidelines:
+  - Use for content discussing economic classification of goods (public, private, club, common)
+  - Apply to theoretical analysis of good properties and characteristics
+  - Tag discussions of rivalry, excludability, and consumption patterns
+  - Use when examining new or hybrid categories of goods
+related_tags:
+  - antirival
+  - public-goods
+  - private-goods
+  - economic-theory
+tagged_content_types:
+  - insights
+  - sources
+status: active
+evolution_notes: Created to support Olleros antirival goods analysis
+created: 2025-09-11
+updated: 2025-09-30T13:11
 ---
 
 # Goods Theory

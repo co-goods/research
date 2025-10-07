@@ -1,23 +1,27 @@
 ---
-name: "Network Effects"
-slug: "network-effects"
-type: "tag"
+name: Network Effects
+slug: network-effects
+type: tag
 template_version: 1
-editor: "pontus-karlsson"
-category: "economic_theory"
-description: "Economic phenomena where the value of a product or service increases as more people use it, creating positive feedback loops"
-usage_guidelines: [
-  "Use for content discussing platforms and systems that become more valuable with adoption",
-  "Apply to analysis of user base growth and network value creation",
-  "Tag discussions of network externalities and increasing returns to scale",
-  "Use when examining interconnected systems and ecosystem effects"
-]
-related_tags: ["antirival", "sharing-economy", "platform-economics"]
-tagged_content_types: ["insights", "sources"]
-status: "active"
-evolution_notes: "Created to support Olleros antirival goods analysis"
-created: "2025-09-11"
-updated: "2025-09-11"
+editor: pontus-karlsson
+category: economic_theory
+description: Economic phenomena where the value of a product or service increases as more people use it, creating positive feedback loops
+usage_guidelines:
+  - Use for content discussing platforms and systems that become more valuable with adoption
+  - Apply to analysis of user base growth and network value creation
+  - Tag discussions of network externalities and increasing returns to scale
+  - Use when examining interconnected systems and ecosystem effects
+related_tags:
+  - antirival
+  - sharing-economy
+  - platform-economics
+tagged_content_types:
+  - insights
+  - sources
+status: active
+evolution_notes: Created to support Olleros antirival goods analysis
+created: 2025-09-11
+updated: 2025-09-30T13:11
 ---
 
 # Network Effects

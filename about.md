@@ -1,11 +1,11 @@
 ---
-title: "About Co-Goods"
-slug: "about"
-type: "page"
+title: About Co-Goods
+slug: about
+type: page
 template_version: 1
-status: "active"
-created: "2025-09-11"
-updated: "2025-09-11"
+status: active
+created: 2025-09-11
+updated: 2025-09-30T13:11
 ---
 
 # About Co-Goods

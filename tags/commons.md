@@ -1,23 +1,28 @@
 ---
-name: "Commons"
-slug: "commons"
-type: "tag"
+name: Commons
+slug: commons
+type: tag
 template_version: 1
-editor: "pontus-karlsson"
-category: "economic_theory"
-description: "Shared resources managed collectively by a community, typically involving common ownership and collaborative governance"
-usage_guidelines: [
-  "Use for content discussing collective resource management",
-  "Apply to analysis of community-owned and governed resources",
-  "Tag discussions of common pool resources and public goods",
-  "Use when examining collaborative governance and stewardship models"
-]
-related_tags: ["antirival", "sharing-economy", "governance", "collective-action"]
-tagged_content_types: ["insights", "sources"]
-status: "active"
-evolution_notes: "Created to support Olleros antirival goods analysis"
-created: "2025-09-11"
-updated: "2025-09-11"
+editor: pontus-karlsson
+category: economic_theory
+description: Shared resources managed collectively by a community, typically involving common ownership and collaborative governance
+usage_guidelines:
+  - Use for content discussing collective resource management
+  - Apply to analysis of community-owned and governed resources
+  - Tag discussions of common pool resources and public goods
+  - Use when examining collaborative governance and stewardship models
+related_tags:
+  - antirival
+  - sharing-economy
+  - governance
+  - collective-action
+tagged_content_types:
+  - insights
+  - sources
+status: active
+evolution_notes: Created to support Olleros antirival goods analysis
+created: 2025-09-11
+updated: 2025-09-30T13:11
 ---
 
 # Commons

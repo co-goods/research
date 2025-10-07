@@ -1,3 +1,7 @@
+---
+created: 2025-09-11T23:30
+updated: 2025-09-30T13:11
+---
 # Co-Goods Project Taxonomy
 
 Based on analysis of The Library of Economic Possibility structure and our implementation.

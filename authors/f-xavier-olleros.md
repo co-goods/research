@@ -1,23 +1,33 @@
 ---
-name: "F. Xavier Olleros"
-slug: "f-xavier-olleros"
-type: "author"
+name: F. Xavier Olleros
+slug: f-xavier-olleros
+type: author
 template_version: 1
-editor: "pontus-karlsson"
-affiliation: "ESG-UQAM (École des sciences de la gestion, Université du Québec à Montréal)"
+editor: pontus-karlsson
+affiliation: ESG-UQAM (École des sciences de la gestion, Université du Québec à Montréal)
 email: ""
 website: ""
 orcid: ""
-bio: "Professor at ESG-UQAM, researcher in economics of digital goods and sharing economy"
-expertise: ["antirival-goods", "network-effects", "sharing-economy", "digital-economics", "commons"]
-key_publications: ["Antirival goods, network effects and the sharing economy (2018)"]
-tags: ["antirival", "network-effects", "sharing-economy"]
-sources_by_author: ["olleros-antirival-goods-2018"]
-status: "active"
-relevance_to_project: "Foundational theoretical work on antirival goods provides crucial framework for understanding network effects in co-goods systems"
+bio: Professor at ESG-UQAM, researcher in economics of digital goods and sharing economy
+expertise:
+  - antirival-goods
+  - network-effects
+  - sharing-economy
+  - digital-economics
+  - commons
+key_publications:
+  - Antirival goods, network effects and the sharing economy (2018)
+tags:
+  - antirival
+  - network-effects
+  - sharing-economy
+sources_by_author:
+  - olleros-antirival-goods-2018
+status: active
+relevance_to_project: Foundational theoretical work on antirival goods provides crucial framework for understanding network effects in co-goods systems
 collaboration_notes: ""
-created: "2025-09-11"
-updated: "2025-09-11"
+created: 2025-09-11
+updated: 2025-09-30T13:11
 ---
 
 # F. Xavier Olleros

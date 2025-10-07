@@ -1,23 +1,28 @@
 ---
-name: "Sharing Economy"
-slug: "sharing-economy"
-type: "tag"
+name: Sharing Economy
+slug: sharing-economy
+type: tag
 template_version: 1
-editor: "pontus-karlsson"
-category: "economic_theory"
-description: "Economic model based on sharing, accessing, and exchanging resources through digital platforms rather than ownership"
-usage_guidelines: [
-  "Use for content discussing platform-mediated resource sharing",
-  "Apply to analysis of access-based consumption models",
-  "Tag discussions of peer-to-peer economic activity",
-  "Use when examining collaborative consumption and asset utilization"
-]
-related_tags: ["antirival", "network-effects", "platform-economics", "commons"]
-tagged_content_types: ["insights", "sources"]
-status: "active"
-evolution_notes: "Created to support Olleros antirival goods analysis"
-created: "2025-09-11"
-updated: "2025-09-11"
+editor: pontus-karlsson
+category: economic_theory
+description: Economic model based on sharing, accessing, and exchanging resources through digital platforms rather than ownership
+usage_guidelines:
+  - Use for content discussing platform-mediated resource sharing
+  - Apply to analysis of access-based consumption models
+  - Tag discussions of peer-to-peer economic activity
+  - Use when examining collaborative consumption and asset utilization
+related_tags:
+  - antirival
+  - network-effects
+  - platform-economics
+  - commons
+tagged_content_types:
+  - insights
+  - sources
+status: active
+evolution_notes: Created to support Olleros antirival goods analysis
+created: 2025-09-11
+updated: 2025-09-30T13:11
 ---
 
 # Sharing Economy

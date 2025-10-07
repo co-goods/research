@@ -1,23 +1,23 @@
 ---
 name: ""
-slug: ""  # URL-friendly identifier (e.g., "jane-doe")
-type: "author"
+slug: ""
+type: author
 template_version: 1
-editor: ""  # reference to contributor file (e.g., pontus-karlsson)
+editor: ""
 affiliation: ""
 email: ""
 website: ""
 orcid: ""
 bio: ""
-expertise: []  # array of expertise areas
-key_publications: []  # array of key publication titles
+expertise: []
+key_publications: []
 tags: []
-sources_by_author: []  # array of source file references
-status: "active"  # active, inactive
+sources_by_author: []
+status: active
 relevance_to_project: ""
 collaboration_notes: ""
 created: "{{date}}"
-updated: "{{date}}"
+updated: 2025-09-30T13:11
 ---
 
 # {{name}}

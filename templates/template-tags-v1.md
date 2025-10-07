@@ -1,18 +1,18 @@
 ---
 name: ""
-slug: ""  # URL-friendly identifier (e.g., "cooperative-economics")
-type: "tag"
+slug: ""
+type: tag
 template_version: 1
-editor: ""  # reference to contributor file (e.g., pontus-karlsson)
-category: ""  # topic, methodology, protocol_aspect, economic_theory, technology, other
+editor: ""
+category: ""
 description: ""
-usage_guidelines: []  # array of usage guidelines
-related_tags: []  # array of related tag names
-tagged_content_types: []  # array of content types that use this tag
-status: "active"  # active, deprecated, merged
+usage_guidelines: []
+related_tags: []
+tagged_content_types: []
+status: active
 evolution_notes: ""
 created: "{{date}}"
-updated: "{{date}}"
+updated: 2025-09-30T13:11
 ---
 
 # {{name}}

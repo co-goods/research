@@ -1,23 +1,23 @@
 ---
 title: ""
-slug: ""  # URL-friendly identifier (e.g., "cooperative-ownership-models")
-type: "insight"
+slug: ""
+type: insight
 template_version: 1
-category: ""  # anecdotal, econometric, empirical, fact, practical, theoretical
-editor: ""  # reference to contributor file (e.g., pontus-karlsson)
+category: ""
+editor: ""
 summary: ""
 tags: []
-sources: []  # array of source file references
-authors: []  # array of author file references
-related_insights: []  # array of other insight file references
-status: "active"  # active, inactive
-relevance_score: ""  # high, medium, low
-whitepaper_section: ""  # which section of the whitepaper this supports
-key_findings: []  # array of key findings
-implications: []  # array of protocol implications
-research_questions: []  # array of follow-up questions
+sources: []
+authors: []
+related_insights: []
+status: active
+relevance_score: ""
+whitepaper_section: ""
+key_findings: []
+implications: []
+research_questions: []
 created: "{{date}}"
-updated: "{{date}}"
+updated: 2025-09-30T13:11
 ---
 
 # {{title}}

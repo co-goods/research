@@ -1,17 +1,17 @@
 ---
 name: ""
-slug: ""  # URL-friendly identifier (e.g., "pontus-karlsson")
-type: "contributor"
+slug: ""
+type: contributor
 template_version: 1
 role: ""
 email: ""
-github: ""  # GitHub username (e.g., "pontuskarlsson")
+github: ""
 bio: ""
 expertise: []
 tags: []
-status: "active"  # active, inactive, alumni
+status: active
 created: "{{date}}"
-updated: "{{date}}"
+updated: 2025-09-30T13:11
 ---
 
 # {{name}}

@@ -1,11 +1,11 @@
 ---
 title: ""
-slug: ""  # URL-friendly identifier (e.g., "cooperative-economics-paper-2024")
-type: "source"
+slug: ""
+type: source
 template_version: 1
-source_type: ""  # academic_paper, article, book, poll, report, visualization
-editor: ""  # reference to contributor file (e.g., pontus-karlsson)
-authors: []  # array of author names or file references
+source_type: ""
+editor: ""
+authors: []
 publication_date: ""
 publisher: ""
 url: ""
@@ -14,15 +14,15 @@ isbn: ""
 citation: ""
 summary: ""
 tags: []
-related_insights: []  # array of insight file references that use this source
-status: "active"  # active, inactive
-relevance_score: ""  # high, medium, low
-key_points: []  # array of key points relevant to co-goods
-methodology: ""  # research methodology if applicable
-limitations: []  # array of limitations or critiques
-applications: []  # array of applications to protocol design
+related_insights: []
+status: active
+relevance_score: ""
+key_points: []
+methodology: ""
+limitations: []
+applications: []
 created: "{{date}}"
-updated: "{{date}}"
+updated: 2025-09-30T13:11
 ---
 
 # {{title}}
