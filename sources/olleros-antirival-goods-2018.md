@@ -7,7 +7,7 @@ editor: pontus-karlsson
 source_type: journal_article
 authors:
   - f-xavier-olleros
-publication_date: 2018-02-05
+publication_date: 2018-02-05T00:00
 publisher: First Monday
 journal: First Monday
 volume: "23"
