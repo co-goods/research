@@ -39,8 +39,3 @@ Additional notes, observations, or considerations.
 - Reference [[author-name]] for people → links to author pages  
 - Cite [Source Title](/sources/source-slug) for papers
 - Connect [[related-concept]] or [[related-insight]] for cross-references
-
----
-*Template Version: 1*
-*Created: {{date}}*
-*Last Updated: {{date}}*

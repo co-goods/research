@@ -84,8 +84,3 @@ This distinction is foundational for [[co-goods]] theory. Physical products are 
 - Designing feedback loops that increase value with usage
 
 The key insight: we're not trying to make physical goods nonrival (impossible), but rather maximizing the nonrival/antirival ratio by designing systems where the non-physical components (knowledge, community, feedback) become the primary value drivers.
-
----
-*Template Version: 1*
-*Created: 2025-11-27*
-*Last Updated: 2025-11-27*

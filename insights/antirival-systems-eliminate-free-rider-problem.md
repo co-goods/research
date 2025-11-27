@@ -129,8 +129,3 @@ Make participation "a side effect of something else they're doing" rather than d
 - Antirival approach: "How do we make lurking itself valuable?"
 
 When wearing a garment generates performance data, choosing not to buy something signals gaps, and usage patterns inform improvements - then consumption IS contribution.
-
----
-*Template Version: 1*
-*Created: 2025-11-27*
-*Last Updated: 2025-11-27*

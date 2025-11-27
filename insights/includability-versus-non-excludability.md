@@ -130,8 +130,3 @@ Simply open-sourcing designs (non-excludable) isn't enough. We must actively des
 - "How do we make this more inclusive?" (not just "How do we make this accessible?")
 - "What would make someone feel welcomed to contribute?" (not just "Can they technically contribute?")
 - "How do we reward this participation?" (not just "Do we allow it?")
-
----
-*Template Version: 1*
-*Created: 2025-11-27*
-*Last Updated: 2025-11-27*

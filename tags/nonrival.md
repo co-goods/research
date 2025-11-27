@@ -55,8 +55,3 @@ Classic examples include:
 - **Broadcasts**: radio/TV signals reach multiple receivers simultaneously
 
 As [[f-xavier-olleros|Olleros]] demonstrates, an mp3 file is inherently nonrival but only became transformative when embedded in [[antirival]] platforms like Napster. Full inclusiveness requires addressing both low-cost sharing (nonrivalness) AND high-benefit sharing (antirivalness).
-
----
-*Template Version: 1*
-*Created: 2025-11-27*
-*Last Updated: 2025-11-27*

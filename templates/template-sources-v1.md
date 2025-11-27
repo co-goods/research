@@ -37,8 +37,3 @@ Brief overview of the source and its main arguments or findings.
 
 ## Notes
 Additional notes, thoughts, or questions about the source.
-
----
-*Template Version: 1*
-*Created: {{date}}*
-*Last Updated: {{date}}*

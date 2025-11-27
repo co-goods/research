@@ -43,8 +43,3 @@ Olleros' work on antirival goods theory is foundational to understanding how co-
 
 ## Notes
 Key theoretical contributions include defining antirival goods as orthogonal to traditional rival/nonrival classifications and establishing frameworks for understanding increasing returns to shared use in digital and sharing economy contexts.
-
----
-*Template Version: 1*
-*Created: 2025-09-11*
-*Last Updated: 2025-09-11*

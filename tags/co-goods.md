@@ -24,7 +24,7 @@ tagged_content_types:
 status: active
 evolution_notes: Core framework being developed to bridge digital commons theory to material production
 created: 2025-11-27T14:17
-updated: 2025-11-27T14:17
+updated: 2025-11-27T15:28
 ---
 
 # Co-Goods
@@ -56,8 +56,3 @@ While physical products are inherently rival at the unit level (the garment itse
 - Creating earned scarcity through contribution rather than payment
 
 The goal is to demonstrate that [[network-effects|network effects]] can drive degrowth rather than extraction - reducing material throughput while increasing collective value through demand-driven co-creation.
-
----
-*Template Version: 1*
-*Created: 2025-11-27*
-*Last Updated: 2025-11-27*

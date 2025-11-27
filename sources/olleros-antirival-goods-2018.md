@@ -57,8 +57,3 @@ This theoretical foundation is crucial for understanding how co-created physical
 
 ## Citation
 Olleros, F. Xavier (2018). "Antirival goods, network effects and the sharing economy." *First Monday*, 23(2). DOI: http://dx.doi.org/10.5210/fm.v23i2.8161
-
----
-*Template Version: 1*
-*Created: 2025-09-11*
-*Last Updated: 2025-09-11*

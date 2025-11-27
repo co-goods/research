@@ -30,8 +30,3 @@ How this author's work relates to the co-goods protocol and research.
 
 ## Notes
 Additional notes about potential collaboration or correspondence.
-
----
-*Template Version: 1*
-*Created: {{date}}*
-*Last Updated: {{date}}*

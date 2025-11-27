@@ -44,8 +44,3 @@ This tag should be used when discussing:
 
 ## Notes
 Traditional goods theory provides the foundation for understanding co-goods, but may need expansion to accommodate new categories like antirival goods that don't fit neatly into existing classifications.
-
----
-*Template Version: 1*
-*Created: 2025-09-11*
-*Last Updated: 2025-09-11*

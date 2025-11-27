@@ -38,8 +38,3 @@ Key contributions to the project and research.
 
 ## Publications/Work
 Relevant publications or work related to co-goods, cooperative economics, or protocol design.
-
----
-*Template Version: 1*
-*Created: 2025-09-11*
-*Last Updated: 2025-09-11*

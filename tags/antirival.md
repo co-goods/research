@@ -51,8 +51,3 @@ This tag should be used when discussing:
 The antirival concept is particularly relevant for understanding how co-created physical products might exhibit [[network-effects|network effects]], especially when they incorporate digital components or are part of networked production and consumption systems.
 
 This concept was first formalized by [[f-xavier-olleros|F. Xavier Olleros]] in his 2018 paper on the [[sharing-economy|sharing economy]]. The relationship between antirival goods and [[commons]] theory offers insights into sustainable resource management at scale.
-
----
-*Template Version: 1*
-*Created: 2025-09-11*
-*Last Updated: 2025-09-11*

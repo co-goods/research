@@ -43,8 +43,3 @@ This tag should be used when discussing:
 
 ## Notes
 Network effects are fundamental to understanding how co-goods might achieve scale and sustainability. Unlike traditional goods, networked co-goods can create value that increases with participation rather than diminishing with competition.
-
----
-*Template Version: 1*
-*Created: 2025-09-11*
-*Last Updated: 2025-09-11*

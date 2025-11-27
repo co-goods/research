@@ -22,8 +22,3 @@ Clear description of what this tag represents and when it should be used.
 
 ## Notes
 Additional notes about tag usage or evolution over time.
-
----
-*Template Version: 1*
-*Created: {{date}}*
-*Last Updated: {{date}}*

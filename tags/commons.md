@@ -44,8 +44,3 @@ This tag should be used when discussing:
 
 ## Notes
 The commons tradition provides crucial insights for co-goods governance, particularly around sustainable management of shared resources and collective decision-making processes.
-
----
-*Template Version: 1*
-*Created: 2025-09-11*
-*Last Updated: 2025-09-11*
