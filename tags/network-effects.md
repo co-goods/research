@@ -20,8 +20,8 @@ tagged_content_types:
   - sources
 status: active
 evolution_notes: Created to support Olleros antirival goods analysis
-created: 
-updated: 2025-11-23T10:26
+created: 2025-11-23T10:26
+updated: 2025-11-27T15:09
 ---
 
 # Network Effects
