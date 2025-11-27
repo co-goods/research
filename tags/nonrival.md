@@ -24,7 +24,7 @@ tagged_content_types:
   - contributors
 status: active
 evolution_notes: Core concept in economic theory of goods, distinguished from antirivalness in Olleros (2018)
-created: 2025-11-27
+created: 2025-11-27T14:16
 updated: 2025-11-27T14:16
 ---
 

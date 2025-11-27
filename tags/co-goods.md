@@ -23,7 +23,7 @@ tagged_content_types:
   - contributors
 status: active
 evolution_notes: Core framework being developed to bridge digital commons theory to material production
-created: 2025-11-27
+created: 2025-11-27T14:17
 updated: 2025-11-27T14:17
 ---
 
