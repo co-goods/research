@@ -36,7 +36,7 @@ open_access: true
 language: English
 status: active
 created: 2025-09-11
-updated: 2025-09-30T13:11
+updated: 2025-11-23T10:26
 ---
 
 # Antirival goods, network effects and the sharing economy

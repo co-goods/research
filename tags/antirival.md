@@ -4,6 +4,8 @@ slug: antirival
 type: tag
 template_version: 1
 editor: pontus-karlsson
+aliases:
+  - antirivalness
 category: economic_theory
 description: Goods that exhibit increasing returns to shared use, becoming more valuable as more people use them simultaneously
 usage_guidelines:
@@ -23,8 +25,8 @@ tagged_content_types:
   - contributors
 status: active
 evolution_notes: Introduced based on Olleros (2018) foundational work on antirival goods theory
-created: 2025-09-11
-updated: 2025-09-30T13:11
+created: 2025-11-11T19:03
+updated: 2025-11-27T13:37
 ---
 
 # Antirival
@@ -46,9 +48,9 @@ This tag should be used when discussing:
 - Increasing returns to adoption in cooperative systems
 
 ## Notes
-The antirival concept is particularly relevant for understanding how co-created physical products might exhibit [[network-effects]], especially when they incorporate digital components or are part of networked production and consumption systems.
+The antirival concept is particularly relevant for understanding how co-created physical products might exhibit [[network-effects|network effects]], especially when they incorporate digital components or are part of networked production and consumption systems.
 
-This concept was first formalized by [[F. Xavier Olleros]] in his 2018 paper on the [[sharing-economy]]. The relationship between antirival goods and [[commons]] theory offers insights into sustainable resource management at scale.
+This concept was first formalized by [[f-xavier-olleros|F. Xavier Olleros]] in his 2018 paper on the [[sharing-economy|sharing economy]]. The relationship between antirival goods and [[commons]] theory offers insights into sustainable resource management at scale.
 
 ---
 *Template Version: 1*

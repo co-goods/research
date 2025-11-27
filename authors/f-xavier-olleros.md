@@ -4,6 +4,9 @@ slug: f-xavier-olleros
 type: author
 template_version: 1
 editor: pontus-karlsson
+aliases:
+  - F. Xavier Olleros
+  - Olleros
 affiliation: ESG-UQAM (École des sciences de la gestion, Université du Québec à Montréal)
 email: ""
 website: ""
@@ -26,8 +29,8 @@ sources_by_author:
 status: active
 relevance_to_project: Foundational theoretical work on antirival goods provides crucial framework for understanding network effects in co-goods systems
 collaboration_notes: ""
-created: 2025-09-11
-updated: 2025-09-30T13:11
+created: 2025-11-11T19:03
+updated: 2025-11-27T13:37
 ---
 
 # F. Xavier Olleros

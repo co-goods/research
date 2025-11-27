@@ -12,7 +12,7 @@ tagged_content_types: []
 status: active
 evolution_notes: ""
 created: "{{date}}"
-updated: 2025-09-30T13:11
+updated: 2025-11-23T10:26
 ---
 
 # {{name}}

@@ -10,8 +10,8 @@ bio: Project lead for the co-goods research initiative
 expertise: []
 tags: []
 status: active
-created: 2025-09-11
-updated: 2025-09-30T13:11
+created: 2025-11-11T19:03
+updated: 2025-11-27T13:37
 ---
 
 # Pontus Karlsson

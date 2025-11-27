@@ -1,6 +1,6 @@
 ---
 created: 2025-09-11T23:30
-updated: 2025-09-30T13:11
+updated: 2025-11-23T10:26
 ---
 # Co-Goods Project Taxonomy
 

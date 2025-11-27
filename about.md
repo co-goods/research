@@ -5,7 +5,7 @@ type: page
 template_version: 1
 status: active
 created: 2025-09-11
-updated: 2025-09-30T13:11
+updated: 2025-11-23T10:26
 ---
 
 # About Co-Goods
