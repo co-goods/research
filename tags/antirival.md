@@ -25,8 +25,8 @@ tagged_content_types:
   - contributors
 status: active
 evolution_notes: Introduced based on Olleros (2018) foundational work on antirival goods theory
-created: 2025-11-11T19:03
-updated: 2025-11-27T13:37
+created: 2025-11-27T14:38
+updated: 2025-11-27T15:10
 ---
 
 # Antirival
