@@ -11,9 +11,9 @@ tags:
   - goods-theory
   - network-effects
 sources:
-  - olleros-antirival-goods-2018
+  - olleros-antirival-goods
 authors:
-  - f-xavier-olleros
+  - pontus-karlsson
 related_insights: []
 status: active
 relevance_score: high

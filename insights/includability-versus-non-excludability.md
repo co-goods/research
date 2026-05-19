@@ -11,9 +11,9 @@ tags:
   - commons
   - goods-theory
 sources:
-  - olleros-antirival-goods-2018
+  - olleros-antirival-goods
 authors:
-  - f-xavier-olleros
+  - pontus-karlsson
 related_insights:
   - antirival-systems-eliminate-free-rider-problem
   - nonrivalness-lowers-cost-antirivalness-raises-benefit

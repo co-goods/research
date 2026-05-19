@@ -12,9 +12,9 @@ tags:
   - network-effects
   - commons
 sources:
-  - olleros-antirival-goods-2018
+  - olleros-antirival-goods
 authors:
-  - f-xavier-olleros
+  - pontus-karlsson
 related_insights:
   - antirivalness-orthogonal-to-nonrivalness
   - nonrivalness-units-antirivalness-systems
