@@ -38,11 +38,11 @@ updated: 2025-11-27T13:32
 
 ## Context
 
-Many economists treat antirival goods as simply "more nonrival," but this misses a crucial distinction that [[f-xavier-olleros|F. Xavier Olleros]] identified in his [[olleros-antirival-goods-2018|2018 paper]]. Understanding these as separate dimensions rather than a continuum fundamentally changes how we approach designing [[commons]] and [[network-effects|network effects]] systems.
+Many economists treat antirival goods as simply "more nonrival," but this misses a crucial distinction that [[people/f-xavier-olleros|F. Xavier Olleros]] identified in his [[library/olleros-antirival-goods|2018 paper]]. Understanding these as separate dimensions rather than a continuum fundamentally changes how we approach designing [[tags/commons]] and [[tags/network-effects|network effects]] systems.
 
 ## Analysis
 
-[[f-xavier-olleros|Olleros]] argues that [[nonrival|nonrivalness]] and [[antirival|antirivalness]] operate on orthogonal axes:
+[[people/f-xavier-olleros|Olleros]] argues that [[tags/nonrival|nonrivalness]] and [[tags/antirival|antirivalness]] operate on orthogonal axes:
 
 **Nonrivalness** is a property of the *units* being shared:
 - Can the good be copied or shared without depletion?
@@ -62,7 +62,7 @@ This orthogonality means you can have four quadrants:
 
 ## Supporting Evidence
 
-From [[olleros-antirival-goods-2018|Olleros (2018)]]:
+From [[library/olleros-antirival-goods|Olleros (2018)]]:
 
 The traffic light example demonstrates antirivalness without full nonrivalness:
 - The physical lights are rival (expensive to install in each city)
@@ -78,7 +78,7 @@ The mp3/Napster example shows nonrivalness requiring antirival systems for impac
 
 ## Notes
 
-This distinction is foundational for [[co-goods]] theory. Physical products are inherently rival, but we can create antirival *systems* around them by:
+This distinction is foundational for [[tags/co-goods]] theory. Physical products are inherently rival, but we can create antirival *systems* around them by:
 - Opening up designs and knowledge (creating nonrival components)
 - Building participation mechanisms (creating antirival dynamics)
 - Designing feedback loops that increase value with usage

@@ -1,67 +1,76 @@
-# Co-Goods Whitepaper
+# Co-Goods — Research
 
-Research content and documentation for the Co-Goods protocol - a system for co-created and networked physical products.
+Research content and documentation for the Co-Goods protocol — a system for co-created and networked physical products.
 
-## Structure
+This repository is the content store; the website (`co-goods/website`) renders it via a submodule.
 
-- **insights/** - Research findings categorized by methodology (empirical, theoretical, practical, etc.)
-- **sources/** - Academic papers, books, reports, and other research sources
-- **authors/** - Profiles of researchers and experts whose work informs our research
-- **contributors/** - Team members and project contributors
-- **tags/** - Organized taxonomy for content categorization
-- **templates/** - Versioned Obsidian templates for creating structured content
-- **about.md** - Project overview and methodology (renders on website)
-- **taxonomy.md** - Content categorization system and quality standards
+## Collections
 
-## Content Workflow
+- **library/** — bibliographic records (books, papers, podcasts, articles, videos, courses, posts). Includes nested `library/publishers/` and `library/publications/`.
+- **wiki/** — neutral encyclopedic articles, open contribution.
+- **essays/** — POV writing by any contributor; includes model write-ups.
+- **reports/** — versioned formal compilations (lightpaper, whitepaper, position paper, model paper). Folder-per-version (`reports/<slug>/<version>/<slug>.md`).
+- **insights/** — atomic research findings, citing library items.
+- **glossary/** — dictionary-schema term entries.
+- **blog/** — chronological project narrative.
+- **people/** — unified profiles (authors, contributors, editors, designers, reviewers, external).
+- **tags/** — operational labels.
+- **templates/** — versioned templates for each collection.
+- **about.md** — project overview (renders on website).
+- **taxonomy.md** — content conventions overview.
 
-1. Use templates in `templates/` to create new content in Obsidian
-2. Save files in appropriate directories (insights/, sources/, authors/, tags/)
-3. Set `status: "active"` when ready for website display
-4. Content automatically appears on the website at `localhost:3000`
+## Content workflow
 
-## Obsidian Integration
+1. Use templates in `templates/` to create new content.
+2. Save files in the appropriate collection (e.g. `library/olleros-antirival-goods.md`).
+3. For drafts, set `status: active, stage: draft` — the website shows a WIP banner.
+4. When polished, set `stage: published`.
+5. Content arrives on the website via the submodule.
 
-### Wikilinks Support
-Write naturally using Obsidian `[[wikilinks]]` - they automatically convert to proper website links:
+See **CONTRIBUTING.md** for the PR-based contribution flow.
+
+## Obsidian wikilinks
+
+Write Obsidian-native qualified-path wikilinks (ADR-016):
 
 ```markdown
-The [[antirival]] concept by [[F. Xavier Olleros]] exhibits [[network-effects]].
+The [[tags/antirival]] concept by [[people/f-xavier-olleros|F. Xavier Olleros]],
+introduced in [[library/olleros-antirival-goods|Olleros (2018)]], shows how
+[[tags/network-effects|network effects]] can drive open systems.
 ```
 
-### Structured References
-Use YAML frontmatter for programmatic cross-references:
+In frontmatter arrays, use bare slugs (collection is implicit from the field name):
 
 ```yaml
-sources: ["olleros-antirival-goods-2018"]
-authors: ["f-xavier-olleros"]
-tags: ["antirival", "network-effects", "sharing-economy"]
+sources: [olleros-antirival-goods]
+authors: [pontus-karlsson]
+tags: [antirival, network-effects, sharing-economy]
 ```
 
-## Current Content
+## Current content
 
-### Sample Content Created
-- **1 Source**: Olleros paper on antirival goods (2018)
-- **1 Author**: F. Xavier Olleros profile  
-- **5 Tags**: antirival, network-effects, sharing-economy, commons, goods-theory
-- **1 Contributor**: Pontus Karlsson (project lead)
+- **1 library item:** Olleros paper on antirival goods (serial `l-00001`)
+- **1 person (external author):** F. Xavier Olleros
+- **1 person (co-goods-team):** Pontus Karlsson (project lead)
+- **7 tags:** antirival, network-effects, sharing-economy, commons, goods-theory, nonrival, co-goods
+- **5 insights:** foundational antirival-theory findings
 
-### Ready for Expansion
-- **insights/** - Empty, ready for research findings
-- **sources/** - Ready for additional academic papers
-- **authors/** - Ready for more researcher profiles
+The `wiki/`, `essays/`, `reports/`, `blog/`, `glossary/`, `library/publishers/`, `library/publications/` collections are scaffolded empty and ready for content.
 
-## Template Versioning
+## Templates
 
-Templates use simple version numbers (v1, v2, v3, etc.) with older versions archived in `templates/archive/`. All templates updated to use consistent `status: "active"` values.
+See `templates/`. Active set (v1):
 
-## Quality Standards
+- `template-library-v1.md`
+- `template-people-v1.md`
+- `template-wiki-v1.md`, `template-essay-v1.md`, `template-report-v1.md`, `template-blog-post-v1.md`, `template-glossary-v1.md`
+- `template-insights-v1.md`, `template-tags-v1.md`
 
-See `taxonomy.md` for complete quality standards including:
-- Required YAML frontmatter fields
-- Content-specific requirements
-- File naming conventions  
-- Linking best practices
+Each template carries an inline `<!-- schema notes -->` block describing its frontmatter contract.
+
+## Quality standards
+
+See `taxonomy.md` for conventions (file naming, slug rules, serials, universal frontmatter, wikilinks).
 
 ## License
 

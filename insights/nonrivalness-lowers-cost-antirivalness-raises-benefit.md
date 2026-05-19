@@ -42,7 +42,7 @@ updated: 2025-11-27T13:31
 
 ## Context
 
-[[f-xavier-olleros|Olleros]] provides compelling examples showing that neither [[nonrival|nonrivalness]] nor [[antirival|antirivalness]] alone creates truly inclusive [[commons]]. Both dimensions must be addressed to achieve full inclusiveness and sustained participation.
+[[people/f-xavier-olleros|Olleros]] provides compelling examples showing that neither [[tags/nonrival|nonrivalness]] nor [[tags/antirival|antirivalness]] alone creates truly inclusive [[tags/commons]]. Both dimensions must be addressed to achieve full inclusiveness and sustained participation.
 
 ## Analysis
 
@@ -66,7 +66,7 @@ This creates the *motivation* for sharing - but only if people can afford to par
 
 **Why Both Are Necessary**
 
-[[f-xavier-olleros|Olleros]] provides two key examples:
+[[people/f-xavier-olleros|Olleros]] provides two key examples:
 
 **Example 1: Mp3 files (nonrival but initially non-antirival)**
 - Mp3s were always nonrival (free to copy)
@@ -85,7 +85,7 @@ This creates the *motivation* for sharing - but only if people can afford to par
 
 ## Supporting Evidence
 
-From [[olleros-antirival-goods-2018|Olleros (2018)]]:
+From [[library/olleros-antirival-goods|Olleros (2018)]]:
 
 > "Thus, only by combining nonrivalness and antirivalness do goods become shareable at any scale and fully inclusive, subject to increasing returns for all the people involved in the sharing."
 
@@ -103,7 +103,7 @@ The paper emphasizes that both dimensions must be addressed:
 
 ## Notes
 
-**Implications for [[co-goods]] design:**
+**Implications for [[tags/co-goods]] design:**
 
 We must address both dimensions when designing systems around physical products:
 
