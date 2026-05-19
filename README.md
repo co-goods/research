@@ -74,6 +74,6 @@ See `taxonomy.md` for conventions (file naming, slug rules, serials, universal f
 
 ## License
 
-All rights reserved. This work is currently proprietary and confidential.
+© 2025–2026 DePalma Workwear Limited. This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). See [`LICENSE`](./LICENSE).
 
-**Future Licensing**: We plan to release this research under a Creative Commons license once the whitepaper is complete, allowing broader access while maintaining appropriate attribution and use guidelines.
+Contributions are accepted under the same license (inbound = outbound). See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
