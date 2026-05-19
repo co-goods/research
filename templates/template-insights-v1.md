@@ -1,23 +1,19 @@
 ---
-title: ""
 slug: ""
+title: ""
 type: insight
-template_version: 1
-category: ""
-editor: ""
 summary: ""
 tags: []
 sources: []
 authors: []
 related_insights: []
 status: active
-relevance_score: ""
-whitepaper_section: ""
+stage: draft
 key_findings: []
 implications: []
 research_questions: []
 created: "{{date}}"
-updated: 2025-11-23T10:26
+updated: "{{date}}"
 ---
 
 # {{title}}
@@ -34,8 +30,22 @@ Additional evidence, quotes, or data that support this insight.
 ## Notes
 Additional notes, observations, or considerations.
 
-**Linking Examples:**
-- Use [[tag-name]] for concepts → automatically converts to tag links
-- Reference [[author-name]] for people → links to author pages  
-- Cite [Source Title](/sources/source-slug) for papers
-- Connect [[related-concept]] or [[related-insight]] for cross-references
+<!--
+Insight schema (v1) — per p-002 architecture review ADR-008 / ADR-011 / ADR-014.
+
+- File location: `insights/<slug>.md`
+- Atomic research finding. Living document — updates in place.
+- `authors`: bare people slugs — who wrote this insight (Co-Goods contributor[s])
+- `sources`: bare library slugs — what library entries this insight cites
+- `tags`: bare tag slugs
+- `stage: draft` shows a WIP banner on the website; `stage: published`
+  removes it.
+
+Wikilinks use qualified paths (ADR-016):
+
+- `[[library/olleros-antirival-goods|Olleros (2018)]]` → /library/olleros-antirival-goods
+- `[[people/f-xavier-olleros|F. Xavier Olleros]]` → /people/f-xavier-olleros
+- `[[wiki/antirival]]`, `[[essays/...]]`, `[[glossary/...]]`, etc.
+- Bare `[[antirival]]` resolves to `/topics/antirival` **if a topic-aggregation
+  page exists** (slug appears in 2+ collections); otherwise build error.
+-->

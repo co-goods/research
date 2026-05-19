@@ -1,8 +1,8 @@
 ---
-name: Pontus Karlsson
 slug: pontus-karlsson
-type: contributor
-template_version: 1
+name: Pontus Karlsson
+type: person
+affiliation: co-goods-team
 role: Project Lead
 email: ""
 github: pontuskarlsson
@@ -11,7 +11,7 @@ expertise: []
 tags: []
 status: active
 created: 2025-11-11T19:03
-updated: 2025-11-27T13:37
+updated: 2026-05-19T20:54
 ---
 
 # Pontus Karlsson

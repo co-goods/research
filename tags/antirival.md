@@ -48,6 +48,6 @@ This tag should be used when discussing:
 - Increasing returns to adoption in cooperative systems
 
 ## Notes
-The antirival concept is particularly relevant for understanding how co-created physical products might exhibit [[network-effects|network effects]], especially when they incorporate digital components or are part of networked production and consumption systems.
+The antirival concept is particularly relevant for understanding how co-created physical products might exhibit [[tags/network-effects|network effects]], especially when they incorporate digital components or are part of networked production and consumption systems.
 
-This concept was first formalized by [[f-xavier-olleros|F. Xavier Olleros]] in his 2018 paper on the [[sharing-economy|sharing economy]]. The relationship between antirival goods and [[commons]] theory offers insights into sustainable resource management at scale.
+This concept was first formalized by [[people/f-xavier-olleros|F. Xavier Olleros]] in his 2018 paper on the [[tags/sharing-economy|sharing economy]]. The relationship between antirival goods and [[tags/commons]] theory offers insights into sustainable resource management at scale.

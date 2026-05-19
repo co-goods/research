@@ -30,13 +30,13 @@ updated: 2025-11-27T15:28
 # Co-Goods
 
 ## Description
-Co-goods is a framework for transforming physical products from extractive to regenerative systems by applying [[antirival]] dynamics through demand-driven co-creation. The approach addresses the gap identified in [[commons]]-based peer production: how to connect immaterial production of digital commons to material production.
+Co-goods is a framework for transforming physical products from extractive to regenerative systems by applying [[tags/antirival]] dynamics through demand-driven co-creation. The approach addresses the gap identified in [[tags/commons]]-based peer production: how to connect immaterial production of digital commons to material production.
 
 Key principles:
 - **Demand-Driven**: Community determines value rather than producers dictating terms
 - **Open Access**: Information and participation mechanisms are publicly accessible
 - **Copyleft**: Open usage of designs, patterns, and knowledge components
-- **Nonlinear Value Creation**: [[network-effects|Network effects]] compound through participation
+- **Nonlinear Value Creation**: [[tags/network-effects|Network effects]] compound through participation
 - **Antirival Systems**: Physical products wrapped in systems that generate increasing returns
 
 This tag should be used when discussing:
@@ -47,12 +47,12 @@ This tag should be used when discussing:
 - Environmental and social regeneration through network dynamics
 
 ## Notes
-The co-goods framework builds on work by [[f-xavier-olleros|Olleros]] on [[antirival]] goods, addressing the critical gap that Benkler left open: "the absence of a concrete strategy as to how the immaterial production of the digital commons can connect to material production."
+The co-goods framework builds on work by [[people/f-xavier-olleros|Olleros]] on [[tags/antirival]] goods, addressing the critical gap that Benkler left open: "the absence of a concrete strategy as to how the immaterial production of the digital commons can connect to material production."
 
-While physical products are inherently rival at the unit level (the garment itself can only be worn by one person at a time), co-goods creates strongly [[antirival]] *systems* around them by:
-- Maximizing [[nonrival]] components (designs, patterns, knowledge, feedback data)
+While physical products are inherently rival at the unit level (the garment itself can only be worn by one person at a time), co-goods creates strongly [[tags/antirival]] *systems* around them by:
+- Maximizing [[tags/nonrival]] components (designs, patterns, knowledge, feedback data)
 - Building participation mechanisms that generate increasing returns
 - Designing feedback loops where consumption becomes contribution
 - Creating earned scarcity through contribution rather than payment
 
-The goal is to demonstrate that [[network-effects|network effects]] can drive degrowth rather than extraction - reducing material throughput while increasing collective value through demand-driven co-creation.
+The goal is to demonstrate that [[tags/network-effects|network effects]] can drive degrowth rather than extraction - reducing material throughput while increasing collective value through demand-driven co-creation.

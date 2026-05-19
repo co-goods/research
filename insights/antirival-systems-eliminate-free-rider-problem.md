@@ -11,9 +11,9 @@ tags:
   - network-effects
   - commons
 sources:
-  - olleros-antirival-goods-2018
+  - olleros-antirival-goods
 authors:
-  - f-xavier-olleros
+  - pontus-karlsson
 related_insights:
   - nonrivalness-units-antirivalness-systems
 status: active
@@ -40,13 +40,13 @@ updated: 2025-11-27T13:31
 
 ## Context
 
-Traditional economic thinking treats "free riders" as a problem to be solved - people who consume without contributing create unsustainable systems. But [[f-xavier-olleros|Olleros]] demonstrates that in strongly [[antirival]] systems, the free-rider problem is fundamentally eliminated because consumption itself becomes contribution.
+Traditional economic thinking treats "free riders" as a problem to be solved - people who consume without contributing create unsustainable systems. But [[people/f-xavier-olleros|Olleros]] demonstrates that in strongly [[tags/antirival]] systems, the free-rider problem is fundamentally eliminated because consumption itself becomes contribution.
 
 ## Analysis
 
 **The Traditional Free-Rider Problem**
 
-In traditional [[commons]], non-contributors drain value:
+In traditional [[tags/commons]], non-contributors drain value:
 - They consume resources without replenishing them
 - They benefit without bearing costs
 - They create sustainability challenges
@@ -72,7 +72,7 @@ The transformation happens when systems are designed so that passive consumption
 
 **Example 1: TED Talks**
 
-From [[olleros-antirival-goods-2018|Olleros (2018)]]:
+From [[library/olleros-antirival-goods|Olleros (2018)]]:
 
 TED transformed from exclusive paid conferences to a global platform by releasing content freely:
 - The "free riders" (millions of online viewers) became TED's core value proposition
@@ -100,7 +100,7 @@ Every new speaker of a language - even passive listeners - increases value for a
 
 ## Notes
 
-**Critical implications for [[co-goods]]:**
+**Critical implications for [[tags/co-goods]]:**
 
 This insight suggests we should design systems where the 90% who "only consume" are actively contributing through:
 

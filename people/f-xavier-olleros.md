@@ -1,13 +1,12 @@
 ---
-name: F. Xavier Olleros
 slug: f-xavier-olleros
-type: author
-template_version: 1
-editor: pontus-karlsson
+name: F. Xavier Olleros
+type: person
+affiliation: external-author
+institution: "ESG-UQAM (École des sciences de la gestion, Université du Québec à Montréal)"
 aliases:
   - F. Xavier Olleros
   - Olleros
-affiliation: ESG-UQAM (École des sciences de la gestion, Université du Québec à Montréal)
 email: ""
 website: ""
 orcid: ""
@@ -25,12 +24,12 @@ tags:
   - network-effects
   - sharing-economy
 sources_by_author:
-  - olleros-antirival-goods-2018
+  - olleros-antirival-goods
 status: active
 relevance_to_project: Foundational theoretical work on antirival goods provides crucial framework for understanding network effects in co-goods systems
 collaboration_notes: ""
 created: 2025-11-11T19:03
-updated: 2025-11-27T13:37
+updated: 2026-05-19T20:54
 ---
 
 # F. Xavier Olleros

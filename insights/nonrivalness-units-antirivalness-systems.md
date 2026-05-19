@@ -12,9 +12,9 @@ tags:
   - network-effects
   - sharing-economy
 sources:
-  - olleros-antirival-goods-2018
+  - olleros-antirival-goods
 authors:
-  - f-xavier-olleros
+  - pontus-karlsson
 related_insights:
   - antirivalness-orthogonal-to-nonrivalness
 status: active
@@ -41,13 +41,13 @@ updated: 2025-11-27T13:31
 
 ## Context
 
-The distinction between unit-level properties and system-level properties is fundamental to understanding how [[network-effects|network effects]] emerge. [[f-xavier-olleros|Olleros]] demonstrates this through the evolution of digital music sharing - the same nonrival mp3 files created vastly different outcomes depending on the system architecture around them.
+The distinction between unit-level properties and system-level properties is fundamental to understanding how [[tags/network-effects|network effects]] emerge. [[people/f-xavier-olleros|Olleros]] demonstrates this through the evolution of digital music sharing - the same nonrival mp3 files created vastly different outcomes depending on the system architecture around them.
 
 ## Analysis
 
 **The Unit Level: Nonrivalness**
 
-An mp3 file is inherently [[nonrival]]:
+An mp3 file is inherently [[tags/nonrival]]:
 - Copying it doesn't diminish the original
 - One person's listening doesn't prevent another's
 - Distribution cost approaches zero
@@ -55,7 +55,7 @@ An mp3 file is inherently [[nonrival]]:
 
 **The System Level: Antirivalness**
 
-But mp3s only transformed the music industry when embedded in platforms like Napster that created [[antirival]] dynamics:
+But mp3s only transformed the music industry when embedded in platforms like Napster that created [[tags/antirival]] dynamics:
 - Discovery mechanisms (search, browse, recommendations)
 - Collective library building (everyone's collection enriched everyone else's access)
 - Network effects (more users = more music = more value for all)
@@ -68,9 +68,9 @@ The same nonrival units (mp3 files) operated in different systems:
 
 ## Supporting Evidence
 
-From [[olleros-antirival-goods-2018|Olleros (2018)]]:
+From [[library/olleros-antirival-goods|Olleros (2018)]]:
 
-The paper emphasizes that [[sharing-economy]] platforms succeed by creating [[antirival|antirival]] *systems* around goods that may or may not be [[nonrival]] themselves:
+The paper emphasizes that [[tags/sharing-economy]] platforms succeed by creating [[tags/antirival|antirival]] *systems* around goods that may or may not be [[tags/nonrival]] themselves:
 
 > "Sharing is becoming increasingly infrastructural because infrastructures are becoming increasingly antirival."
 
@@ -83,7 +83,7 @@ The Napster example specifically shows:
 
 ## Notes
 
-**Critical implication for [[co-goods]]:**
+**Critical implication for [[tags/co-goods]]:**
 
 Physical products are inherently rival at the unit level (the garment itself). But we can create strongly antirival *systems* around them:
 

@@ -1,24 +1,27 @@
 ---
-name: ""
 slug: ""
+name: ""
 type: tag
-template_version: 1
-editor: ""
-category: ""
-description: ""
-usage_guidelines: []
+definition: ""
 related_tags: []
-tagged_content_types: []
 status: active
-evolution_notes: ""
 created: "{{date}}"
-updated: 2025-11-23T10:26
+updated: "{{date}}"
 ---
 
 # {{name}}
 
-## Description
-Clear description of what this tag represents and when it should be used.
+## Definition
+Clear definition of what this tag represents and when it should be used.
 
-## Notes
-Additional notes about tag usage or evolution over time.
+## Related
+- `[[tags/...]]` — related tags
+
+<!--
+Tag schema (v1) — per p-002 architecture review ADR-013.
+
+- File location: `tags/<slug>.md`
+- Flat slug with optional definition. **No category field** (the earlier
+  tag-categories taxonomy was deferred — revisit if filtering needs emerge).
+- `related_tags`: slugs of other tags.
+-->

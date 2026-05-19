@@ -1,15 +1,14 @@
 ---
+slug: olleros-antirival-goods
+serial: l-00001
 title: Antirival goods, network effects and the sharing economy
-slug: olleros-antirival-goods-2018
-type: source
-template_version: 1
-editor: pontus-karlsson
-source_type: journal_article
+type: paper
 authors:
   - f-xavier-olleros
-publication_date: 2018-02-05T00:00
-publisher: First Monday
-journal: First Monday
+publication: first-monday
+publisher: first-monday
+year: 2018
+publication_date: 2018-02-05
 volume: "23"
 issue: "2"
 doi: http://dx.doi.org/10.5210/fm.v23i2.8161
@@ -34,9 +33,14 @@ quality_assessment: high
 peer_reviewed: true
 open_access: true
 language: English
+our_take: ""
+is-cited: true
+is-featured: true
 status: active
-created: 2025-09-11T10:00
-updated: 2025-11-23T10:26
+added-by: pontus-karlsson
+added: 2026-05-19
+created: 2025-09-11
+updated: 2026-05-19
 ---
 
 # Antirival goods, network effects and the sharing economy

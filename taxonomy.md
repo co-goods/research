@@ -1,111 +1,117 @@
 ---
-created: 2025-09-11T23:30
-updated: 2025-11-23T10:26
+created: 2025-09-11
+updated: 2026-05-19
 ---
-# Co-Goods Project Taxonomy
 
-Based on analysis of The Library of Economic Possibility structure and our implementation.
+# Co-Goods Research — Taxonomy and Conventions
 
-## Insight Categories
+How content is organised in `co-goods/research`. At-a-glance overview; authoritative reasoning lives in the p-002 architecture-review log and the promoted ADRs.
 
-Research insights are categorized by their methodological approach and evidence type:
+**Architecture source of truth:**
+- `~/agentic-projects/enterprises/co-goods/projects/current/p-002-website-v1/staging/architecture-review-log.md`
+- `~/agentic-projects/enterprises/co-goods/projects/current/p-002-website-v1/DECISIONS.md` (ADR-001 through ADR-017)
 
-- **Anecdotal** - Based on individual experiences or case studies
-- **Econometric** - Using statistical/mathematical economic models
-- **Empirical** - Based on observed data and experimental evidence
-- **Fact** - Established factual information
-- **Practical** - Applied, real-world implementation insights
-- **Theoretical** - Conceptual frameworks and theoretical models
+## Collections
 
-## Source Types
+| Collection | Voice / role | URL |
+|---|---|---|
+| `library/` | Bibliographic records (books, papers, podcasts, articles, videos, courses, posts) | `/library/<slug>` |
+| `library/publishers/` | Publishing organisations | `/library/publishers/<slug>` |
+| `library/publications/` | Channels (journals, podcasts, etc.) | `/library/publications/<slug>` |
+| `wiki/` | Neutral, encyclopedic, open contribution | `/wiki/<slug>` |
+| `essays/` | POV writing by any contributor; includes model write-ups | `/essays/<slug>` |
+| `reports/` | Versioned formal compilations (lightpaper, whitepaper, position-paper, model-paper) | `/reports/<slug>` (latest); `/reports/<slug>/<version>` (specific) |
+| `insights/` | Atomic research findings; cite library items | `/insights/<slug>` |
+| `glossary/` | DePalma Dictionary Schema term entries | `/glossary/<slug>` |
+| `blog/` | Chronological project narrative | `/blog/<slug>` (URL flattened from `blog/<year>/<month>/<slug>.md`) |
+| `people/` | Unified profiles (authors, contributors, editors, designers, reviewers, external) | `/people/<slug>` |
+| `tags/` | Operational labels | `/tags/<slug>` |
 
-Research sources are categorized by format and publication type:
+Plus auto-generated `/topics/<slug>` aggregation pages where a slug spans 2+ collections (ADR-016).
 
-- **Journal Article** - Peer-reviewed research papers in academic journals
-- **Academic Paper** - Other peer-reviewed research papers
-- **Article** - Magazine articles, blog posts, news articles
-- **Book** - Published books and monographs
-- **Poll** - Survey data and polling results
-- **Report** - Research reports, white papers, institutional publications
-- **Visualization** - Charts, graphs, infographics, data visualizations
+## File naming
 
-## Content Status Values
+- **Flat `.md` files everywhere** with the filename matching the slug (e.g. `library/olleros-antirival-goods.md`). No `SOURCE.md` / `AUTHOR.md` / `REPORT.md` generic-inside-file naming (ADR-006).
+- **Reports** are the sole folder-based exception: `reports/<slug>/<version>/<slug>.md` with per-version subfolders (ADR-009).
+- **Blog** uses `blog/<year>/<month>/<slug>.md` for human file-tree navigation; the URL is flat (ADR-012).
 
-All content types use these status values:
+## Slug rules
 
-- **active** - Published and displayed on website
-- **inactive** - Not displayed on website
-- **deprecated** - Superseded by newer content (for tags)
-- **merged** - Combined into other content (for tags)
-- **alumni** - Former team members (for contributors)
+- Kebab-case, lowercase, hyphen-separated. No underscores.
+- The `slug:` frontmatter field is **always the bare form** — never includes serials.
+- For library: `<lastname>-<2–3 headline words>` (e.g. `olleros-antirival-goods`). Keep slugs short.
+- For people: `<firstname-lastname>` (e.g. `f-xavier-olleros`).
+- For glossary: base form canonical (`co-goods`, not `co-goodsing`); grammatical variants live under `classes[type=verb].forms` per the dictionary schema (ADR-015).
 
-*Note: Website displays only content with `status: "active"`*
+## Serials
 
-## Relevance Scoring
+Serials live in YAML frontmatter, not in filenames or folder names (ADR-007).
 
-For sources and insights:
+| Prefix | Used by | Notes |
+|---|---|---|
+| `l-#####` | **library items only** | Every library item in the repo gets one. Rule: **in repo = has a serial.** Items only on the Dropbox shelf (untracked here) have no serial. |
 
-- **high** - Directly applicable to protocol design
-- **medium** - Supporting context or background
-- **low** - Tangential relevance
+Other content types (people, tags, insights, wiki, essays, reports, glossary, blog posts) do **not** use serials.
 
-## Tag Categories
+`library/INDEX.md` is the registry of assigned serials.
 
-Tags are organized into these high-level categories:
+## Universal frontmatter fields
 
-- **topic** - Subject matter areas (e.g., "cooperative-economics", "tokenomics")
-- **methodology** - Research methods (e.g., "case-study", "quantitative")
-- **protocol_aspect** - Parts of the protocol (e.g., "governance", "incentives")
-- **economic_theory** - Economic frameworks (e.g., "antirival", "network-effects", "commons")
-- **technology** - Technical aspects (e.g., "blockchain", "smart-contracts")
-- **other** - Miscellaneous categorizations
+Where relevant (ADR-014):
 
-## Current Tag Definitions
+- `status: active | inactive` — is this on the website?
+- `stage: draft | published` — if active, draft (with WIP banner) or polished?
 
-### Economic Theory Tags
-- **antirival** - Goods that become more valuable with shared use
-- **network-effects** - Value increases with user adoption
-- **sharing-economy** - Platform-mediated resource sharing
-- **commons** - Collectively managed shared resources
-- **goods-theory** - Economic classification frameworks
+`status: active, stage: draft` is the canonical "publish drafts so the community can engage with them" pattern. Never use `stage: final` — use `stage: published`.
 
-## File Naming Conventions
+## Type discriminators
 
-- **Sources**: `author-title-year.md` (e.g., `olleros-antirival-goods-2018.md`)
-- **Authors**: `firstname-lastname.md` (e.g., `f-xavier-olleros.md`)
-- **Tags**: `concept-name.md` (e.g., `antirival.md`, `network-effects.md`)
-- **Contributors**: `firstname-lastname.md` (e.g., `pontus-karlsson.md`)
-- **Insights**: `descriptive-title.md` (e.g., `antirival-manufacturing-analysis.md`)
+- **Library items**: `type: book | paper | podcast-episode | article | post | video | course`
+- **Reports**: `type: lightpaper | whitepaper | position-paper | model-paper`
+- **People**: `type: person`
+- **Glossary**: `type: word | term | comparison`
+- **Tags / insights / wiki / essays / blog posts**: `type:` matches the collection name
 
-## Obsidian Integration
+## Wikilinks (ADR-016)
 
-### Wikilink Support
-The system supports Obsidian `[[wikilinks]]` which automatically convert to proper website links:
+Wikilinks use **qualified paths** (Obsidian-native slash syntax).
 
-- `[[antirival]]` → `/tags/antirival`
-- `[[f-xavier-olleros]]` → `/authors/f-xavier-olleros`
-- `[[network-effects]]` → `/tags/network-effects`
+- `[[library/olleros-antirival-goods]]` → `/library/olleros-antirival-goods`
+- `[[people/f-xavier-olleros|F. Xavier Olleros]]` → `/people/f-xavier-olleros` with custom display text
+- `[[tags/antirival]]` → `/tags/antirival`
+- `[[wiki/...]]`, `[[essays/...]]`, `[[glossary/...]]`, `[[insights/...]]` — same pattern
+- `[[topics/antirival]]` → `/topics/antirival` (an aggregation page)
 
-### Structured References
-Use YAML frontmatter arrays for programmatic linking:
+**Bare wikilinks** (no slash):
+- `[[antirival]]` → `/topics/antirival` **if a topic-aggregation page exists** (slug appears in 2+ collections).
+- `[[antirival]]` with no topic page → **build error** (forces qualification).
+
+**Frontmatter arrays** stay bare — collection is implicit from the field name:
 
 ```yaml
-sources: ["olleros-antirival-goods-2018"]
-authors: ["f-xavier-olleros"]
-tags: ["antirival", "network-effects", "sharing-economy"]
+sources: [olleros-antirival-goods]       # implicit: library
+authors: [pontus-karlsson]                # implicit: people
+tags: [antirival, network-effects]        # implicit: tags
 ```
 
-## Quality Standards
+## Current tag definitions
 
-### Required for All Content
-- Use appropriate template from `templates/`
-- Complete all YAML frontmatter fields
-- Set `status: "active"` for published content
-- Use consistent slug naming (matches filename)
-- Set proper `created` and `updated` dates (YYYY-MM-DD format)
+Brief definitions of tags currently in use:
 
-### Content-Specific Requirements
-- **Sources**: Include `key_points`, `relevance_to_project`, DOI when available
-- **Authors**: Include `relevance_to_project`, link to their sources
-- **Tags**: Include `description`, `usage_guidelines`, `related_tags`
-- **Insights**: Reference supporting `sources` and `authors`
+- **antirival** — Goods that become more valuable with shared use
+- **network-effects** — Value increases with user adoption
+- **sharing-economy** — Platform-mediated resource sharing
+- **commons** — Collectively managed shared resources
+- **goods-theory** — Economic classification frameworks
+- **nonrival** — Goods that can be consumed by multiple people simultaneously without depletion
+- **co-goods** — The Co-Goods framework
+
+(Tag categorisation/taxonomy was deferred per ADR-013 — revisit if filtering needs emerge.)
+
+## Templates
+
+See `templates/` for per-collection schemas. Each v1 template includes an inline `<!-- schema notes -->` block documenting required and optional frontmatter fields, file location conventions, and links to the relevant ADRs.
+
+## License and contributing
+
+See `LICENSE` (CC BY-SA 4.0) and `CONTRIBUTING.md` (PR-based contribution flow; inbound = outbound license; asset handling).

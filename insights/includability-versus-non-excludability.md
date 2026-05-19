@@ -11,9 +11,9 @@ tags:
   - commons
   - goods-theory
 sources:
-  - olleros-antirival-goods-2018
+  - olleros-antirival-goods
 authors:
-  - f-xavier-olleros
+  - pontus-karlsson
 related_insights:
   - antirival-systems-eliminate-free-rider-problem
   - nonrivalness-lowers-cost-antirivalness-raises-benefit
@@ -41,7 +41,7 @@ updated: 2025-11-27T13:31
 
 ## Context
 
-Many discussions of [[commons]] and public goods focus on excludability - whether access can be controlled. But [[f-xavier-olleros|Olleros]] makes a crucial distinction: truly successful collective goods aren't just non-excludable, they're highly *includable*. The system must actively welcome and reward participation, not just fail to prevent it.
+Many discussions of [[tags/commons]] and public goods focus on excludability - whether access can be controlled. But [[people/f-xavier-olleros|Olleros]] makes a crucial distinction: truly successful collective goods aren't just non-excludable, they're highly *includable*. The system must actively welcome and reward participation, not just fail to prevent it.
 
 ## Analysis
 
@@ -76,7 +76,7 @@ Includability means the system is *designed for participation*:
 
 ## Supporting Evidence
 
-From [[olleros-antirival-goods-2018|Olleros (2018)]]:
+From [[library/olleros-antirival-goods|Olleros (2018)]]:
 
 > "The optimal way to manage a strongly antirival good is inclusiveness, perhaps to the point of subsidizing early users and penalizing deviants."
 
@@ -86,7 +86,7 @@ This suggests several strategies for maximizing includability:
 - Lower barriers for newcomers
 - Provide extra support and resources
 - Celebrate and amplify early contributions
-- Bootstrap [[network-effects|network effects]] by making initial participation rewarding
+- Bootstrap [[tags/network-effects|network effects]] by making initial participation rewarding
 
 **Active Design for Participation:**
 - Clear pathways from consumption to contribution
@@ -102,7 +102,7 @@ This suggests several strategies for maximizing includability:
 
 ## Notes
 
-**Critical distinction for [[co-goods]]:**
+**Critical distinction for [[tags/co-goods]]:**
 
 Simply open-sourcing designs (non-excludable) isn't enough. We must actively design for includability:
 
