@@ -1,6 +1,6 @@
 ---
 created: 2025-09-11
-updated: 2026-05-21
+updated: 2026-05-21T22:17
 ---
 
 # Co-Goods Research — Taxonomy and Conventions
