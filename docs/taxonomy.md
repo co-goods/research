@@ -72,7 +72,7 @@ Where relevant:
 
 - `status: active | inactive` — is this on the website?
 - `stage: draft | published` — if active, draft (with WIP banner) or polished?
-- `example: false` (default) — opt-in flag for dummy/test content; set `true` to mark content that exercises website templates without claiming research-domain status. The build can filter `example: true` items from production renders.
+- `example: false` (default) — opt-in flag for dummy/test content; set `true` to mark content that exercises website templates without claiming research-domain status. The build can filter `example: true` items from production renders. Example library items use the `x-#####` serial namespace instead of `l-#####`; this keeps `l-00001+` reserved for the first curated library entries.
 
 `status: active, stage: draft` is the canonical "publish drafts so the community can engage with them" pattern. Never use `stage: final` — use `stage: published`.
 

@@ -15,7 +15,16 @@ Metadata for items in the Co-Goods library. Serials are assigned on entry to the
 | Serial | Title | Slug | Type | Authors | Year | Cited | Featured | Added by | Added |
 |---|---|---|---|---|---|---|---|---|---|
 
-_(No library items yet. The first curated item will receive serial `l-00001`.)_
+_(No curated library items yet. The first curated item will receive serial `l-00001`.)_
+
+## Example items
+
+Dummy content used to exercise website templates. Serials use the `x-#####` namespace so the curated `l-#####` numbering remains untouched. Items here all carry `example: true` in their frontmatter and can be bulk-filtered or removed.
+
+| Serial | Title | Slug | Type | Authors | Year | Cited | Featured | Added by | Added |
+|---|---|---|---|---|---|---|---|---|---|
+| x-00001 | Network Coordination Under Asynchronous Participation | smith-network-coordination-2022 | paper | [[people/jane-doe\|Jane Doe]] | 2022 | ✓ | ✓ | [[people/pontus-karlsson\|Pontus Karlsson]] | 2026-05-21 |
+| x-00002 | Systems Thinking for the Curious | johnson-systems-thinking-2019 | book | [[people/jane-doe\|Jane Doe]] | 2019 | ✓ |   | [[people/pontus-karlsson\|Pontus Karlsson]] | 2026-05-21 |
 
 ## Columns
 

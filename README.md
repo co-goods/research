@@ -51,12 +51,17 @@ tags: [antirival, network-effects, sharing-economy]
 
 ## Current content
 
-- **1 library item:** Olleros paper on antirival goods (serial `l-00001`)
-- **1 person (external author):** F. Xavier Olleros
+**Curated:**
 - **1 person (co-goods-team):** Pontus Karlsson (project lead)
 - **7 tags:** antirival, network-effects, sharing-economy, commons, goods-theory, nonrival, co-goods
 
-All other collections — `insights/`, `observations/`, `hypotheses/`, `wiki/`, `essays/`, `reports/`, `blog/`, `glossary/`, `library/publishers/`, `library/publications/` — are scaffolded empty and ready for content.
+**Example content** (`example: true`; placeholder data used to exercise the website's templates, filtered from production renders, easy to remove in bulk):
+- **2 library items** (serials `x-00001`, `x-00002`) + 1 publisher + 1 publication
+- **1 person** (external author placeholder)
+- **2 observations**, **1 insight**, **1 hypothesis** (exercises the epistemic chain)
+- **1 wiki article**, **1 essay**, **1 blog post**, **1 glossary entry**, **1 tag**
+
+The `reports/` collection is scaffolded empty. The first curated library entry will receive serial `l-00001`.
 
 ## Templates
 

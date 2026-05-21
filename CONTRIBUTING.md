@@ -2,7 +2,7 @@
 
 Welcome! Co-Goods is an open-innovation research project. Anyone is welcome to contribute — drafts, refinements, citations, new wiki articles, essays, glossary entries, library items, fixes.
 
-This document covers *how* to contribute. For the *what* — collections, schemas, conventions — see [`taxonomy.md`](./taxonomy.md) and the `templates/` directory.
+This document covers *how* to contribute. For the *what* — collections, schemas, conventions — see [`docs/taxonomy.md`](./docs/taxonomy.md) and the `templates/` directory.
 
 ## Quick start
 
@@ -29,7 +29,7 @@ This document covers *how* to contribute. For the *what* — collections, schema
 
 For library items, the maintainer assigns the next `l-#####` serial on merge and updates `library/INDEX.md`.
 
-See [`taxonomy.md`](./taxonomy.md) for the full conventions.
+See [`docs/taxonomy.md`](./docs/taxonomy.md) for the full conventions.
 
 ## Frontmatter
 
