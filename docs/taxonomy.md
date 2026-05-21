@@ -1,15 +1,11 @@
 ---
 created: 2025-09-11
-updated: 2026-05-19
+updated: 2026-05-21
 ---
 
 # Co-Goods Research — Taxonomy and Conventions
 
-How content is organised in `co-goods/research`. At-a-glance overview; authoritative reasoning lives in the p-002 architecture-review log and the promoted ADRs.
-
-**Architecture source of truth:**
-- `~/agentic-projects/enterprises/co-goods/projects/current/p-002-website-v1/staging/architecture-review-log.md`
-- `~/agentic-projects/enterprises/co-goods/projects/current/p-002-website-v1/DECISIONS.md` (ADR-001 through ADR-017)
+How content is organised in `co-goods/research`. The authoritative reference for collection structure, file naming, frontmatter conventions, and wikilinks.
 
 ## Collections
 
@@ -21,19 +17,34 @@ How content is organised in `co-goods/research`. At-a-glance overview; authorita
 | `wiki/` | Neutral, encyclopedic, open contribution | `/wiki/<slug>` |
 | `essays/` | POV writing by any contributor; includes model write-ups | `/essays/<slug>` |
 | `reports/` | Versioned formal compilations (lightpaper, whitepaper, position-paper, model-paper) | `/reports/<slug>` (latest); `/reports/<slug>/<version>` (specific) |
-| `insights/` | Atomic research findings; cite library items | `/insights/<slug>` |
-| `glossary/` | DePalma Dictionary Schema term entries | `/glossary/<slug>` |
+| `observations/` | External signals from the world (data points, trends, cases, field findings, interview notes) | `/observations/<slug>` |
+| `insights/` | Atomic research findings synthesised from observations and/or library sources | `/insights/<slug>` |
+| `hypotheses/` | Testable predictions in "if [condition], then [outcome]" form | `/hypotheses/<slug>` |
+| `glossary/` | Dictionary-schema term entries | `/glossary/<slug>` |
 | `blog/` | Chronological project narrative | `/blog/<slug>` (URL flattened from `blog/<year>/<month>/<slug>.md`) |
 | `people/` | Unified profiles (authors, contributors, editors, designers, reviewers, external) | `/people/<slug>` |
 | `tags/` | Operational labels | `/tags/<slug>` |
 
-Plus auto-generated `/topics/<slug>` aggregation pages where a slug spans 2+ collections (ADR-016).
+Plus auto-generated `/topics/<slug>` aggregation pages where a slug spans 2+ collections.
+
+## Epistemic chain (observation → insight → hypothesis)
+
+The repo models a simple chain for traceability:
+
+```
+observations → insights → hypotheses
+```
+
+- **Observations** capture external signals from the world. They ground in `sources` (library items) where evidence comes from.
+- **Insights** synthesise from observations and/or library sources. **Every insight must have at least one upstream link** — either `observations:` (when synthesising signals) or `sources:` (when extending a published source). Both can be populated, neither can be empty.
+- **Hypotheses** build on insights as testable predictions, with a `validation-status` lifecycle: `pending | validated | invalidated | revised`.
+- **Decisions** are not a collection in this repo — they live in per-project files or in concept-canon docs elsewhere.
 
 ## File naming
 
-- **Flat `.md` files everywhere** with the filename matching the slug (e.g. `library/olleros-antirival-goods.md`). No `SOURCE.md` / `AUTHOR.md` / `REPORT.md` generic-inside-file naming (ADR-006).
-- **Reports** are the sole folder-based exception: `reports/<slug>/<version>/<slug>.md` with per-version subfolders (ADR-009).
-- **Blog** uses `blog/<year>/<month>/<slug>.md` for human file-tree navigation; the URL is flat (ADR-012).
+- **Flat `.md` files everywhere** with the filename matching the slug (e.g. `library/olleros-antirival-goods.md`). No `SOURCE.md` / `AUTHOR.md` / `REPORT.md` generic-inside-file naming.
+- **Reports** are the sole folder-based exception: `reports/<slug>/<version>/<slug>.md` with per-version subfolders.
+- **Blog** uses `blog/<year>/<month>/<slug>.md` for human file-tree navigation; the URL is flat.
 
 ## Slug rules
 
@@ -41,26 +52,27 @@ Plus auto-generated `/topics/<slug>` aggregation pages where a slug spans 2+ col
 - The `slug:` frontmatter field is **always the bare form** — never includes serials.
 - For library: `<lastname>-<2–3 headline words>` (e.g. `olleros-antirival-goods`). Keep slugs short.
 - For people: `<firstname-lastname>` (e.g. `f-xavier-olleros`).
-- For glossary: base form canonical (`co-goods`, not `co-goodsing`); grammatical variants live under `classes[type=verb].forms` per the dictionary schema (ADR-015).
+- For glossary: base form canonical (`co-goods`, not `co-goodsing`); grammatical variants live under `classes[type=verb].forms` per the dictionary schema.
 
 ## Serials
 
-Serials live in YAML frontmatter, not in filenames or folder names (ADR-007).
+Serials live in YAML frontmatter, not in filenames or folder names.
 
 | Prefix | Used by | Notes |
 |---|---|---|
-| `l-#####` | **library items only** | Every library item in the repo gets one. Rule: **in repo = has a serial.** Items only on the Dropbox shelf (untracked here) have no serial. |
+| `l-#####` | **library items only** | Every library item in the repo gets one. Rule: **in repo = has a serial.** Items kept externally but not promoted into the repo have no serial. |
 
-Other content types (people, tags, insights, wiki, essays, reports, glossary, blog posts) do **not** use serials.
+Other content types (people, tags, insights, observations, hypotheses, wiki, essays, reports, glossary, blog posts) do **not** use serials.
 
 `library/INDEX.md` is the registry of assigned serials.
 
 ## Universal frontmatter fields
 
-Where relevant (ADR-014):
+Where relevant:
 
 - `status: active | inactive` — is this on the website?
 - `stage: draft | published` — if active, draft (with WIP banner) or polished?
+- `example: false` (default) — opt-in flag for dummy/test content; set `true` to mark content that exercises website templates without claiming research-domain status. The build can filter `example: true` items from production renders.
 
 `status: active, stage: draft` is the canonical "publish drafts so the community can engage with them" pattern. Never use `stage: final` — use `stage: published`.
 
@@ -70,16 +82,18 @@ Where relevant (ADR-014):
 - **Reports**: `type: lightpaper | whitepaper | position-paper | model-paper`
 - **People**: `type: person`
 - **Glossary**: `type: word | term | comparison`
+- **Observations**: `type: observation`
+- **Hypotheses**: `type: hypothesis` (with `validation-status: pending | validated | invalidated | revised`)
 - **Tags / insights / wiki / essays / blog posts**: `type:` matches the collection name
 
-## Wikilinks (ADR-016)
+## Wikilinks
 
 Wikilinks use **qualified paths** (Obsidian-native slash syntax).
 
 - `[[library/olleros-antirival-goods]]` → `/library/olleros-antirival-goods`
 - `[[people/f-xavier-olleros|F. Xavier Olleros]]` → `/people/f-xavier-olleros` with custom display text
 - `[[tags/antirival]]` → `/tags/antirival`
-- `[[wiki/...]]`, `[[essays/...]]`, `[[glossary/...]]`, `[[insights/...]]` — same pattern
+- `[[observations/...]]`, `[[hypotheses/...]]`, `[[insights/...]]`, `[[wiki/...]]`, `[[essays/...]]`, `[[glossary/...]]` — same pattern
 - `[[topics/antirival]]` → `/topics/antirival` (an aggregation page)
 
 **Bare wikilinks** (no slash):
@@ -89,9 +103,10 @@ Wikilinks use **qualified paths** (Obsidian-native slash syntax).
 **Frontmatter arrays** stay bare — collection is implicit from the field name:
 
 ```yaml
-sources: [olleros-antirival-goods]       # implicit: library
-authors: [pontus-karlsson]                # implicit: people
-tags: [antirival, network-effects]        # implicit: tags
+sources: [olleros-antirival-goods]              # implicit: library
+observations: [observed-trend-slug]              # implicit: observations
+authors: [pontus-karlsson]                       # implicit: people
+tags: [antirival, network-effects]               # implicit: tags
 ```
 
 ## Current tag definitions
@@ -106,11 +121,11 @@ Brief definitions of tags currently in use:
 - **nonrival** — Goods that can be consumed by multiple people simultaneously without depletion
 - **co-goods** — The Co-Goods framework
 
-(Tag categorisation/taxonomy was deferred per ADR-013 — revisit if filtering needs emerge.)
+(Tag categorisation/taxonomy is deferred for now — revisit if filtering needs emerge.)
 
 ## Templates
 
-See `templates/` for per-collection schemas. Each v1 template includes an inline `<!-- schema notes -->` block documenting required and optional frontmatter fields, file location conventions, and links to the relevant ADRs.
+See `templates/` for per-collection schemas. Each v1 template includes an inline `<!-- schema notes -->` block documenting required and optional frontmatter fields and file location conventions.
 
 ## License and contributing
 
