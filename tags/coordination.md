@@ -21,6 +21,6 @@ Patterns and mechanisms by which distributed participants align their actions to
 
 ## Related
 
-- `[[tags/network-effects]]` — where coordination compounds with participation
-- `[[tags/sharing-economy]]` — platform-mediated coordination
-- `[[tags/commons]]` — collectively governed resources requiring coordination
+- [[tags/network-effects]] — where coordination compounds with participation
+- [[tags/sharing-economy]] — platform-mediated coordination
+- [[tags/commons]] — collectively governed resources requiring coordination

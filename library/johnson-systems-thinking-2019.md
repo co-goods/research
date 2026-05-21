@@ -37,7 +37,7 @@ updated: 2026-05-21T17:52
 
 ## Overview
 
-Placeholder book entry used to exercise the library template with `type: book`. Tests rendering of book-specific bibliographic fields (ISBN, publisher, no journal/volume) and cross-links to `[[people/jane-doe|Jane Doe]]` as author, plus `[[library/publishers/example-press|Example Press]]` as publisher.
+Placeholder book entry used to exercise the library template with `type: book`. Tests rendering of book-specific bibliographic fields (ISBN, publisher, no journal/volume) and cross-links to [[people/jane-doe|Jane Doe]] as author, plus [[library/publishers/example-press|Example Press]] as publisher.
 
 ## Our take
 
@@ -51,4 +51,4 @@ Placeholder commentary. In a real entry this would describe how the book's frami
 
 ## Notes
 
-Cited indirectly via `[[observations/expert-interview-pattern]]`, which draws on chapter 4's discussion of expert-novice coordination patterns. See also `[[library/smith-network-coordination-2022|Smith (2022)]]` for a more formal treatment.
+Cited indirectly via [[observations/expert-interview-pattern]], which draws on chapter 4's discussion of expert-novice coordination patterns. See also [[library/smith-network-coordination-2022|Smith (2022)]] for a more formal treatment.

@@ -35,13 +35,13 @@ updated: 2026-05-21T17:53
 
 ## Related terms
 
-- `[[tags/coordination]]` (broader sense)
-- `[[tags/network-effects]]`
+- [[tags/coordination]] (broader sense)
+- [[tags/network-effects]]
 
 ## See also
 
-- Wiki article: `[[wiki/network-coordination]]` (intentionally shares this slug — the website should auto-generate a topic-aggregation page at `/topics/network-coordination`).
-- Library: `[[library/smith-network-coordination-2022|Smith (2022)]]`.
+- Wiki article: [[wiki/network-coordination]] (intentionally shares this slug — the website should auto-generate a topic-aggregation page at `/topics/network-coordination`).
+- Library: [[library/smith-network-coordination-2022|Smith (2022)]].
 
 ## Notes
 

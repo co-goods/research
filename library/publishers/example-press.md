@@ -17,9 +17,9 @@ Placeholder publisher used to exercise the publishers template. Founded 2010, hy
 
 ## Publications
 
-- `[[library/publications/example-journal|Example Journal]]` — flagship peer-reviewed journal
+- [[library/publications/example-journal|Example Journal]] — flagship peer-reviewed journal
 
 ## Notable works published
 
-- `[[library/smith-network-coordination-2022|Smith (2022) — Network Coordination]]`
-- `[[library/johnson-systems-thinking-2019|Johnson (2019) — Systems Thinking]]`
+- [[library/smith-network-coordination-2022|Smith (2022) — Network Coordination]]
+- [[library/johnson-systems-thinking-2019|Johnson (2019) — Systems Thinking]]

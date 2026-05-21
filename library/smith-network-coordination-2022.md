@@ -40,7 +40,7 @@ updated: 2026-05-21T17:52
 
 ## Overview
 
-This is a placeholder paper used to exercise the library template. It exists to test how the website renders a `paper`-type library entry with full bibliographic metadata, an author reference to `[[people/jane-doe|Jane Doe]]`, and a publication chain through `[[library/publications/example-journal|Example Journal]]` published by `[[library/publishers/example-press|Example Press]]`.
+This is a placeholder paper used to exercise the library template. It exists to test how the website renders a `paper`-type library entry with full bibliographic metadata, an author reference to [[people/jane-doe|Jane Doe]], and a publication chain through [[library/publications/example-journal|Example Journal]] published by [[library/publishers/example-press|Example Press]].
 
 ## Our take
 
@@ -54,4 +54,4 @@ Placeholder commentary. In a real entry this would summarise how the paper infor
 
 ## Notes
 
-Cited by `[[insights/asynchronous-coordination-density|the asynchronous-coordination-density insight]]`, which synthesises this paper with two observations: `[[observations/weekend-readership-spike]]` and `[[observations/expert-interview-pattern]]`.
+Cited by [[insights/asynchronous-coordination-density|the asynchronous-coordination-density insight]], which synthesises this paper with two observations: [[observations/weekend-readership-spike]] and [[observations/expert-interview-pattern]].

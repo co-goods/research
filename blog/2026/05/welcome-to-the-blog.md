@@ -22,13 +22,13 @@ Placeholder first blog post used to exercise the blog template. Filed under `blo
 
 ## What's on the blog
 
-Time-stamped narrative about the project — research updates, community moments, decisions worth flagging. Distinct from `[[wiki/network-coordination|wiki articles]]` (neutral, encyclopedic) and `[[essays/on-collaboration|essays]]` (POV, authored arguments).
+Time-stamped narrative about the project — research updates, community moments, decisions worth flagging. Distinct from [[wiki/network-coordination|wiki articles]] (neutral, encyclopedic) and [[essays/on-collaboration|essays]] (POV, authored arguments).
 
 ## Recent thinking
 
-A recent insight — `[[insights/asynchronous-coordination-density]]` — synthesised two observations into a testable hypothesis. See `[[hypotheses/engagement-density-correlation]]` for the validation plan.
+A recent insight — [[insights/asynchronous-coordination-density]] — synthesised two observations into a testable hypothesis. See [[hypotheses/engagement-density-correlation]] for the validation plan.
 
-If you're interested in the underlying literature, start with `[[library/smith-network-coordination-2022|Smith (2022)]]`.
+If you're interested in the underlying literature, start with [[library/smith-network-coordination-2022|Smith (2022)]].
 
 ## Notes
 

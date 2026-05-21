@@ -32,7 +32,7 @@ Dummy content used to exercise website templates. Serials use the `x-#####` name
 - **Title** — display title
 - **Slug** — bare slug (for grep / wikilink)
 - **Type** — `book` / `paper` / `podcast-episode` / `article` / `post` / `video` / `course`
-- **Authors** — `[[people/<slug>|Display Name]]` wikilink
+- **Authors** — [[people/<slug>|Display Name]] wikilink
 - **Year** — for sorting; matches the item's `year:` frontmatter
 - **Cited** — ✓ if `is-cited: true`, empty otherwise
 - **Featured** — ✓ if `is-featured: true`, empty otherwise

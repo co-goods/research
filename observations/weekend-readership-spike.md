@@ -24,7 +24,7 @@ updated: 2026-05-21T17:53
 
 Across multiple example platforms, long-form posts received 3–5× the engagement on weekend days compared with weekdays — but only for posts in the top engagement quartile. Lower-engagement posts showed no day-of-week effect. The pattern held across multiple geographies once normalised for timezone.
 
-The signal first surfaced in `[[library/smith-network-coordination-2022|Smith (2022)]]`, Section 4, as part of a discussion of asynchronous participation patterns.
+The signal first surfaced in [[library/smith-network-coordination-2022|Smith (2022)]], Section 4, as part of a discussion of asynchronous participation patterns.
 
 ## Why it matters
 
@@ -32,7 +32,7 @@ Readership concentration during off-hours suggests that the most engaging long-f
 
 ## Related observations
 
-- `[[observations/expert-interview-pattern]]` — shares the "engagement concentrates" theme but in a qualitative dimension.
+- [[observations/expert-interview-pattern]] — shares the "engagement concentrates" theme but in a qualitative dimension.
 
 ## Notes
 
