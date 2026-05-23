@@ -23,7 +23,7 @@ If [decision / condition / system property X], then [outcome Y].
 
 ## Underlying insight(s)
 
-Reference the insight(s) this hypothesis is based on — wikilink them via `[[insights/<slug>]]`.
+Reference the insight(s) this hypothesis is based on — wikilink them via `[[research/insights/<slug>]]`.
 
 ## Why this matters
 
@@ -44,9 +44,9 @@ Open questions, caveats.
 <!--
 Hypothesis schema (v1).
 
-- File location: `hypotheses/<slug>.md` (flat; slug-only naming, no serial)
+- File location: `research/hypotheses/<slug>.md` (flat; slug-only naming, no serial)
 - Form: testable prediction — "If [decision/condition/property], then [outcome]"
-- `insights`: bare slugs in `insights/` — what the hypothesis is based on
+- `insights`: bare slugs in `research/insights/` — what the hypothesis is based on
 - `validation-status`: enum — `pending | validated | invalidated | revised`
 - `test-design`: free-text describing methodology and validation criteria
   (switch to block scalar `test-design: |` for multi-line content when filling in)

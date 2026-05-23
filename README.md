@@ -6,14 +6,14 @@ This repository is the content store; the website (`co-goods/website`) renders i
 
 ## Collections
 
-- **library/** — bibliographic records (books, papers, podcasts, articles, videos, courses, posts). Includes nested `library/publishers/` and `library/publications/`.
-- **wiki/** — neutral encyclopedic articles, open contribution.
-- **essays/** — POV writing by any contributor; includes model write-ups.
-- **reports/** — versioned formal compilations (lightpaper, whitepaper, position paper, model paper). Folder-per-version (`reports/<slug>/<version>/<slug>.md`).
-- **observations/** — external signals from the world (data points, trends, cases, field findings, interview notes).
-- **insights/** — atomic research findings synthesised from observations and/or library sources.
-- **hypotheses/** — testable predictions in "if [condition], then [outcome]" form, with a validation-status lifecycle.
-- **glossary/** — dictionary-schema term entries.
+- **resources/library/** — bibliographic records (books, papers, podcasts, articles, videos, courses, posts). Includes nested `resources/library/publishers/` and `resources/library/publications/`.
+- **resources/wiki/** — neutral encyclopedic articles, open contribution.
+- **thinking/essays/** — POV writing by any contributor; includes model write-ups.
+- **research/reports/** — versioned formal compilations (lightpaper, whitepaper, position paper, model paper). Folder-per-version (`research/reports/<slug>/<version>/<slug>.md`).
+- **research/observations/** — external signals from the world (data points, trends, cases, field findings, interview notes).
+- **research/insights/** — atomic research findings synthesised from observations and/or library sources.
+- **research/hypotheses/** — testable predictions in "if [condition], then [outcome]" form, with a validation-status lifecycle.
+- **resources/glossary/** — dictionary-schema term entries.
 - **blog/** — chronological project narrative.
 - **people/** — unified profiles (authors, contributors, editors, designers, reviewers, external).
 - **tags/** — operational labels.
@@ -24,7 +24,7 @@ This repository is the content store; the website (`co-goods/website`) renders i
 ## Content workflow
 
 1. Use templates in `templates/` to create new content.
-2. Save files in the appropriate collection (e.g. `library/olleros-antirival-goods.md`).
+2. Save files in the appropriate collection (e.g. `resources/library/olleros-antirival-goods.md`).
 3. For drafts, set `status: active, stage: draft` — the website shows a WIP banner.
 4. When polished, set `stage: published`.
 5. Content arrives on the website via the submodule.
@@ -37,7 +37,7 @@ Write Obsidian-native qualified-path wikilinks:
 
 ```markdown
 The [[tags/antirival]] concept by [[people/f-xavier-olleros|F. Xavier Olleros]],
-introduced in [[library/olleros-antirival-goods|Olleros (2018)]], shows how
+introduced in [[resources/library/olleros-antirival-goods|Olleros (2018)]], shows how
 [[tags/network-effects|network effects]] can drive open systems.
 ```
 
@@ -61,7 +61,7 @@ tags: [antirival, network-effects, sharing-economy]
 - **2 observations**, **1 insight**, **1 hypothesis** (exercises the epistemic chain)
 - **1 wiki article**, **1 essay**, **1 blog post**, **1 glossary entry**, **1 tag**
 
-The `reports/` collection is scaffolded empty. The first curated library entry will receive serial `l-00001`.
+The `research/reports/` collection is scaffolded empty. The first curated library entry will receive serial `l-00001`.
 
 ## Templates
 

@@ -7,8 +7,8 @@ tags:
   - coordination
   - network-effects
 related:
-  - glossary/network-coordination
-  - essays/on-collaboration
+  - resources/glossary/network-coordination
+  - thinking/essays/on-collaboration
 status: active
 stage: published
 example: true
@@ -37,13 +37,13 @@ This wiki article is placeholder content used to exercise the wiki template — 
 
 ## Examples in the wild
 
-- Asynchronous open-source contributions (see [[observations/weekend-readership-spike]] and [[observations/expert-interview-pattern]]).
-- Wikipedia editing (referenced in [[library/smith-network-coordination-2022|Smith 2022]]).
+- Asynchronous open-source contributions (see [[research/observations/weekend-readership-spike]] and [[research/observations/expert-interview-pattern]]).
+- Wikipedia editing (referenced in [[resources/library/smith-network-coordination-2022|Smith 2022]]).
 - Standards bodies and their consensus processes.
 
 ## See also
 
-- Glossary entry: [[glossary/network-coordination]] (shares slug — exercises topic-aggregation page at `/topics/network-coordination`).
-- Essay: [[essays/on-collaboration|On Collaboration]] for a more POV treatment.
-- Insight: [[insights/asynchronous-coordination-density]] — synthesises observations and library work.
-- Hypothesis: [[hypotheses/engagement-density-correlation]] — testable prediction derived from the insight.
+- Glossary entry: [[resources/glossary/network-coordination]] (shares slug — exercises topic-aggregation page at `/topics/network-coordination`).
+- Essay: [[thinking/essays/on-collaboration|On Collaboration]] for a more POV treatment.
+- Insight: [[research/insights/asynchronous-coordination-density]] — synthesises observations and library work.
+- Hypothesis: [[research/hypotheses/engagement-density-correlation]] — testable prediction derived from the insight.

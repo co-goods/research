@@ -17,17 +17,17 @@ This document covers *how* to contribute. For the *what* — collections, schema
 
 | Content | Location | Template |
 |---|---|---|
-| Library item (book / paper / podcast / etc.) | `library/<slug>.md` | `template-library-v1.md` |
-| Wiki article (neutral encyclopedic) | `wiki/<slug>.md` | `template-wiki-v1.md` |
-| Essay / model write-up (POV) | `essays/<slug>.md` | `template-essay-v1.md` |
-| Report (versioned formal compilation) | `reports/<slug>/v0.1/<slug>.md` | `template-report-v1.md` |
-| Glossary entry | `glossary/<slug>.md` | `template-glossary-v1.md` |
+| Library item (book / paper / podcast / etc.) | `resources/library/<slug>.md` | `template-library-v1.md` |
+| Wiki article (neutral encyclopedic) | `resources/wiki/<slug>.md` | `template-wiki-v1.md` |
+| Essay / model write-up (POV) | `thinking/essays/<slug>.md` | `template-essay-v1.md` |
+| Report (versioned formal compilation) | `research/reports/<slug>/v0.1/<slug>.md` | `template-report-v1.md` |
+| Glossary entry | `resources/glossary/<slug>.md` | `template-glossary-v1.md` |
 | Blog post | `blog/<year>/<month>/<slug>.md` | `template-blog-post-v1.md` |
 | Person profile | `people/<slug>.md` | `template-people-v1.md` |
 | Tag | `tags/<slug>.md` | `template-tags-v1.md` |
-| Insight (atomic research finding) | `insights/<slug>.md` | `template-insights-v1.md` |
+| Insight (atomic research finding) | `research/insights/<slug>.md` | `template-insights-v1.md` |
 
-For library items, the maintainer assigns the next `l-#####` serial on merge and updates `library/INDEX.md`.
+For library items, the maintainer assigns the next `l-#####` serial on merge and updates `resources/library/INDEX.md`.
 
 See [`docs/taxonomy.md`](./docs/taxonomy.md) for the full conventions.
 
@@ -47,7 +47,7 @@ Use qualified-path Obsidian-style wikilinks:
 
 ```markdown
 The [[tags/antirival]] concept by [[people/f-xavier-olleros|F. Xavier Olleros]],
-introduced in [[library/olleros-antirival-goods|Olleros (2018)]], shows how
+introduced in [[resources/library/olleros-antirival-goods|Olleros (2018)]], shows how
 [[tags/network-effects|network effects]] can drive open systems.
 ```
 

@@ -41,9 +41,9 @@ Start with `stage: draft` while the essay is taking shape — the page is publis
 
 Use qualified-path wikilinks to other content:
 
-- `[[library/olleros-antirival-goods]]` — link to a library item
+- `[[resources/library/olleros-antirival-goods]]` — link to a library item
 - `[[people/f-xavier-olleros|F. Xavier Olleros]]` — link to a person profile with custom display text
-- `[[wiki/antirival]]` — link to a wiki article
+- `[[resources/wiki/antirival]]` — link to a wiki article
 - `[[topics/antirival]]` — link to the topic aggregation page
 
 ### Bare wikilinks

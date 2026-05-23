@@ -35,7 +35,7 @@ Additional notes, observations, or considerations.
 <!--
 Insight schema (v1).
 
-- File location: `insights/<slug>.md`
+- File location: `research/insights/<slug>.md`
 - Atomic research finding. Living document — updates in place.
 - `authors`: bare people slugs — who wrote this insight (Co-Goods contributor[s])
 - `sources`: bare library slugs — library entries this insight cites
@@ -52,10 +52,10 @@ can be empty.
 
 Wikilinks use qualified paths:
 
-- `[[library/olleros-antirival-goods|Olleros (2018)]]` → /library/olleros-antirival-goods
+- `[[resources/library/olleros-antirival-goods|Olleros (2018)]]` → /resources/library/olleros-antirival-goods
 - `[[people/f-xavier-olleros|F. Xavier Olleros]]` → /people/f-xavier-olleros
-- `[[observations/<slug>]]`, `[[hypotheses/<slug>]]`, `[[wiki/<slug>]]`,
-  `[[essays/<slug>]]`, `[[glossary/<slug>]]`, etc.
+- `[[research/observations/<slug>]]`, `[[research/hypotheses/<slug>]]`, `[[resources/wiki/<slug>]]`,
+  `[[thinking/essays/<slug>]]`, `[[resources/glossary/<slug>]]`, etc.
 - Bare `[[antirival]]` resolves to `/topics/antirival` **if a topic-aggregation
   page exists** (slug appears in 2+ collections); otherwise build error.
 -->

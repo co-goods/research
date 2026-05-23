@@ -35,7 +35,7 @@ Open questions, caveats, things to verify.
 <!--
 Observation schema (v1).
 
-- File location: `observations/<slug>.md` (flat; slug-only naming, no serial)
+- File location: `research/observations/<slug>.md` (flat; slug-only naming, no serial)
 - Voice: external signal from the world (data, trend, case, field finding, interview)
 - `sources`: bare library slugs that ground the observation in evidence
 - `year-of-observation`: when the phenomenon was observed (not the entry date — that's `created`)

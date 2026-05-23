@@ -38,9 +38,9 @@ Additional notes, thoughts, or questions about the source.
 Library entry schema (v1) — per p-002 architecture review ADR-004 / ADR-005 / ADR-007.
 
 Required:
-- File location: `library/<slug>.md` (flat; no folder-with-inside-file)
+- File location: `resources/library/<slug>.md` (flat; no folder-with-inside-file)
 - `slug`: bare kebab-case (e.g. `olleros-antirival-goods`); matches filename
-- `serial`: `l-#####` — every library item gets one; register in `library/INDEX.md`
+- `serial`: `l-#####` — every library item gets one; register in `resources/library/INDEX.md`
 - `type`: `book | paper | podcast-episode | article | post | video | course`
 - `authors`: bare people slugs, e.g. `[f-xavier-olleros]`
 - `is-cited`: true if any research-side content cites this
@@ -48,8 +48,8 @@ Required:
 - `added-by`: bare people slug — who curated this entry into the repo
 
 Optional (add when relevant):
-- `publication`: slug of channel (journal/podcast/etc.) in `library/publications/`
-- `publisher`: slug of organisation in `library/publishers/`
+- `publication`: slug of channel (journal/podcast/etc.) in `resources/library/publications/`
+- `publisher`: slug of organisation in `resources/library/publishers/`
 - `doi`, `isbn`, `volume`, `issue`, `publication_date` (full date), `language`,
   `peer_reviewed`, `open_access`, `key_points[]`, `methodology`, `limitations[]`,
   `relevance_to_project`

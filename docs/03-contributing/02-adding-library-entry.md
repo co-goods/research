@@ -11,7 +11,7 @@ When you want to add a book, paper, podcast, or other reference to the library �
 
 ## Decide whether it belongs in the repo
 
-The library has a hard rule: **in the repo = has a serial**. So every entry you add commits to the `l-#####` namespace and to the `library/INDEX.md` registry. Items that live only on an external shelf (your reading list, a Zotero collection, a private file share) do not need to be promoted.
+The library has a hard rule: **in the repo = has a serial**. So every entry you add commits to the `l-#####` namespace and to the `resources/library/INDEX.md` registry. Items that live only on an external shelf (your reading list, a Zotero collection, a private file share) do not need to be promoted.
 
 Promote an item when:
 
@@ -21,11 +21,11 @@ Promote an item when:
 
 ## Pick the next serial
 
-Open `library/INDEX.md`, find the highest assigned `l-#####`, and use the next number. Add a row to the index for your new entry (slug, serial, type, brief title) before writing the entry itself.
+Open `resources/library/INDEX.md`, find the highest assigned `l-#####`, and use the next number. Add a row to the index for your new entry (slug, serial, type, brief title) before writing the entry itself.
 
 ## Write the entry
 
-Create `library/<slug>.md` using the template in `templates/template-library-v1.md`. Fill in the bibliographic fields appropriate to the type (paper, book, podcast-episode, etc.) — see `docs/schemas/library-entry` for the per-type field guide.
+Create `resources/library/<slug>.md` using the template in `templates/template-library-v1.md`. Fill in the bibliographic fields appropriate to the type (paper, book, podcast-episode, etc.) — see `docs/schemas/library-entry` for the per-type field guide.
 
 ### People, publishers, publications
 
@@ -42,4 +42,4 @@ It's fine to add an entry with both flags `false` — it sits in the registry, r
 
 ## Submitting
 
-Open a PR with the new entry, the updated `library/INDEX.md`, and any supporting people / publisher / publication entries. The Vercel preview deploy lets you check the rendering before merging.
+Open a PR with the new entry, the updated `resources/library/INDEX.md`, and any supporting people / publisher / publication entries. The Vercel preview deploy lets you check the rendering before merging.

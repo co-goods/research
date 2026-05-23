@@ -22,14 +22,14 @@ Background and scope.
 ## ...content sections as the article matures...
 
 ## Related
-- `[[wiki/...]]` — related wiki articles
-- `[[essays/...]]` — relevant essays
-- `[[library/...]]` — library entries
+- `[[resources/wiki/...]]` — related wiki articles
+- `[[thinking/essays/...]]` — relevant essays
+- `[[resources/library/...]]` — library entries
 
 <!--
 Wiki article schema (v1) — per p-002 architecture review ADR-008 / ADR-014.
 
-- File location: `wiki/<slug>.md`
+- File location: `resources/wiki/<slug>.md`
 - Voice: **neutral, encyclopedic**. Open contribution via PR.
 - Distinct from essays (which are POV / authored).
 - Living document — updates in place; git history is the version log.

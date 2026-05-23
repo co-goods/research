@@ -14,7 +14,7 @@ updated: 2026-05-21T17:52
 
 # Example Journal
 
-Placeholder publication used to exercise the publications template. Peer-reviewed journal published by [[library/publishers/example-press|Example Press]] since 2012.
+Placeholder publication used to exercise the publications template. Peer-reviewed journal published by [[resources/library/publishers/example-press|Example Press]] since 2012.
 
 ## Scope
 
@@ -22,4 +22,4 @@ Hypothetical journal covering coordination patterns, distributed systems, and ne
 
 ## Notable papers
 
-- [[library/smith-network-coordination-2022|Smith (2022) — Network Coordination]]
+- [[resources/library/smith-network-coordination-2022|Smith (2022) — Network Coordination]]

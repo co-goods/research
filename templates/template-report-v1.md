@@ -29,7 +29,7 @@ Brief abstract / executive summary.
 <!--
 Report schema (v1) — per p-002 architecture review ADR-008 / ADR-009 / ADR-010.
 
-- File location: `reports/<slug>/<version>/<slug>.md`
+- File location: `research/reports/<slug>/<version>/<slug>.md`
   Each report is a folder; each version a sub-folder.
 - `type`: `lightpaper | whitepaper | position-paper | model-paper`
 - `version`: `MAJOR.MINOR` (skip PATCH). v0.x = pre-publication drafts;
@@ -47,6 +47,6 @@ version's `assets/` folder contains only what's new or changed in that
 version.
 
 Reports freeze on release; future versions live in new sibling folders.
-URL `/reports/<slug>` routes to the latest published version; specific
-versions reachable at `/reports/<slug>/<version>`.
+URL `/research/reports/<slug>` routes to the latest published version; specific
+versions reachable at `/research/reports/<slug>/<version>`.
 -->

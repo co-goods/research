@@ -18,7 +18,7 @@ relationships:
     - coordination
     - network-effects
 links:
-  - https://en.wikipedia.org/wiki/Coordination
+  - https://en.wikipedia.org/resources/wiki/Coordination
 sources:
   - smith-network-coordination-2022
 status: active
@@ -40,8 +40,8 @@ updated: 2026-05-21T17:53
 
 ## See also
 
-- Wiki article: [[wiki/network-coordination]] (intentionally shares this slug — the website should auto-generate a topic-aggregation page at `/topics/network-coordination`).
-- Library: [[library/smith-network-coordination-2022|Smith (2022)]].
+- Wiki article: [[resources/wiki/network-coordination]] (intentionally shares this slug — the website should auto-generate a topic-aggregation page at `/topics/network-coordination`).
+- Library: [[resources/library/smith-network-coordination-2022|Smith (2022)]].
 
 ## Notes
 

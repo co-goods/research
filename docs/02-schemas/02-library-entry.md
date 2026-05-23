@@ -11,9 +11,9 @@ Library entries describe bibliographic items — books, papers, podcasts, articl
 
 ## When to add a library entry
 
-Add a library item when it should be available to cite, recommend, or feature on the site. The rule is **in the repo = has a serial**: every item in `library/` carries an `l-#####` serial assigned at the moment it's promoted from any external shelf into the repo. Items kept externally but not yet promoted do not have a serial.
+Add a library item when it should be available to cite, recommend, or feature on the site. The rule is **in the repo = has a serial**: every item in `resources/library/` carries an `l-#####` serial assigned at the moment it's promoted from any external shelf into the repo. Items kept externally but not yet promoted do not have a serial.
 
-The `library/INDEX.md` file is the registry of assigned serials. Pick the next unused one when adding a new entry, then update the index.
+The `resources/library/INDEX.md` file is the registry of assigned serials. Pick the next unused one when adding a new entry, then update the index.
 
 ## Type discriminator
 
@@ -35,8 +35,8 @@ Both, either, or neither can be true. The role is independent of whether the ite
 ## Authors and publishers
 
 - `authors:` references slugs in `people/` (bare slugs in the array; the `people/` prefix is implicit).
-- `publisher:` references a slug in `library/publishers/`.
-- `publication:` references a slug in `library/publications/` (the journal, podcast, magazine, etc.).
+- `publisher:` references a slug in `resources/library/publishers/`.
+- `publication:` references a slug in `resources/library/publications/` (the journal, podcast, magazine, etc.).
 
 People, publishers, and publications are themselves first-class entries — they have their own pages and can backlink to every library item that references them.
 
