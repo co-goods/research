@@ -1,0 +1,34 @@
+# Co-Goods content — code owners
+#
+# Reviews are auto-requested from the listed handle(s) when a PR touches
+# the matching path. Paths are grouped by committee for readability:
+# every PR also lands at @pontuskarlsson today, since each committee is
+# currently a team of one. As committee members join, add their handles
+# to the relevant lines (no restructure needed).
+
+# Catch-all — Project committee owns until split
+*                       @pontuskarlsson
+
+# Thinking committee
+/essays/                @pontuskarlsson
+/manifesto.md           @pontuskarlsson
+
+# Resources committee
+/wiki/                  @pontuskarlsson
+/glossary/              @pontuskarlsson
+/library/               @pontuskarlsson
+
+# Research committee
+/insights/              @pontuskarlsson
+/observations/          @pontuskarlsson
+/hypotheses/            @pontuskarlsson
+/reports/               @pontuskarlsson
+
+# Project committee
+/blog/                  @pontuskarlsson
+/people/                @pontuskarlsson
+/organizations/         @pontuskarlsson
+/about.md               @pontuskarlsson
+/docs/                  @pontuskarlsson
+/CONTRIBUTING.md        @pontuskarlsson
+/additions/             @pontuskarlsson
