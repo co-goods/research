@@ -55,4 +55,4 @@ Folders and files inside this `docs/` collection use a leading `NN-` prefix to c
 
 - `docs/01-conventions/02-frontmatter.md` → `/docs/conventions/frontmatter`
 
-Other collections do not use ordering prefixes. Sidebar / index ordering for them is alphabetic, chronological, or explicit (e.g. `library/INDEX.md`).
+Other collections do not use ordering prefixes. Sidebar / index ordering for them is alphabetic, chronological, or explicit (e.g. `resources/library/INDEX.md`).

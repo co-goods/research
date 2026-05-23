@@ -24,7 +24,7 @@ updated: 2026-05-21T17:53
 
 In a series of 24 placeholder interviews with subject-matter experts across distributed-systems and platform-design fields, when asked open-ended questions about "what's hard about this work," 70%+ of answers more than 200 words referenced **coordination mechanisms** specifically — not technical complexity, not stakeholder management, not staffing. The pattern was unusually consistent across otherwise heterogeneous experts.
 
-Drawn from [[library/johnson-systems-thinking-2019|Johnson (2019)]] Chapter 4 and informal follow-up interviews.
+Drawn from [[resources/library/johnson-systems-thinking-2019|Johnson (2019)]] Chapter 4 and informal follow-up interviews.
 
 ## Why it matters
 
@@ -32,7 +32,7 @@ Suggests that the "felt difficulty" of distributed work clusters around coordina
 
 ## Related observations
 
-- [[observations/weekend-readership-spike]] — quantitative engagement-clustering signal; this observation surfaces the qualitative analogue.
+- [[research/observations/weekend-readership-spike]] — quantitative engagement-clustering signal; this observation surfaces the qualitative analogue.
 
 ## Notes
 

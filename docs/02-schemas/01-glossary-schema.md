@@ -19,7 +19,7 @@ The schema is open-licensed (CC BY-SA 4.0), which matches Co-Goods's own licensi
 
 The entry filename and `slug` use the base form of the term. Grammatical variants (verb forms, plurals, adjective forms) live inside the entry, not as separate files.
 
-- `glossary/co-goods.md` — base form
+- `resources/glossary/co-goods.md` — base form
 - `co-goodsing` (verb), `co-goodser` (noun-agent), etc. — declared inside the entry's `classes[type=verb].forms` block, **not** as separate glossary entries.
 
 ## Minimum frontmatter

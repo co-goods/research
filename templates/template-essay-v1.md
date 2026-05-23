@@ -22,7 +22,7 @@ One- or two-sentence summary or hook.
 <!--
 Essay schema (v1) — per p-002 architecture review ADR-008 / ADR-010 / ADR-014.
 
-- File location: `essays/<slug>.md`
+- File location: `thinking/essays/<slug>.md`
 - Voice: **POV writing** by an identified contributor. Distinct from wiki
   (which is neutral / encyclopedic).
 - Models (structured frameworks like the co-goods lifecycle) live here too;
@@ -30,7 +30,7 @@ Essay schema (v1) — per p-002 architecture review ADR-008 / ADR-010 / ADR-014.
   `type: essay`.
 - Living document — updates in place; git history is the version log. When
   mature, an essay may graduate to a versioned report at
-  `reports/<slug>/v1.0/<slug>.md`.
+  `research/reports/<slug>/v1.0/<slug>.md`.
 - `stage: draft` shows the WIP banner; `stage: published` removes it.
 - `authors`: bare people slugs.
 -->

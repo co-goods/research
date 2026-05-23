@@ -3,27 +3,32 @@ created: 2025-09-11
 updated: 2026-05-21T22:17
 ---
 
-# Co-Goods Research — Taxonomy and Conventions
+# Co-Goods Content — Taxonomy and Conventions
 
-How content is organised in `co-goods/research`. The authoritative reference for collection structure, file naming, frontmatter conventions, and wikilinks.
+How content is organised in `co-goods/content`. The authoritative reference for collection structure, file naming, frontmatter conventions, and wikilinks.
 
 ## Collections
 
-| Collection | Voice / role | URL |
+Folder structure mirrors the URL groupings: practitioner-facing content under `resources/`, the epistemic chain under `research/`, POV publications under `thinking/`. Cross-cutting collections (blog, people, organizations, tags, docs) stay at the content root.
+
+| Folder | Voice / role | URL |
 |---|---|---|
-| `library/` | Bibliographic records (books, papers, podcasts, articles, videos, courses, posts) | `/library/<slug>` |
-| `library/publishers/` | Publishing organisations | `/library/publishers/<slug>` |
-| `library/publications/` | Channels (journals, podcasts, etc.) | `/library/publications/<slug>` |
-| `wiki/` | Neutral, encyclopedic, open contribution | `/wiki/<slug>` |
-| `essays/` | POV writing by any contributor; includes model write-ups | `/essays/<slug>` |
-| `reports/` | Versioned formal compilations (lightpaper, whitepaper, position-paper, model-paper) | `/reports/<slug>` (latest); `/reports/<slug>/<version>` (specific) |
-| `observations/` | External signals from the world (data points, trends, cases, field findings, interview notes) | `/observations/<slug>` |
-| `insights/` | Atomic research findings synthesised from observations and/or library sources | `/insights/<slug>` |
-| `hypotheses/` | Testable predictions in "if [condition], then [outcome]" form | `/hypotheses/<slug>` |
-| `glossary/` | Dictionary-schema term entries | `/glossary/<slug>` |
+| `resources/library/` | Bibliographic records (books, papers, podcasts, articles, videos, courses, posts) | `/resources/library/<slug>` |
+| `resources/library/publishers/` | Publishing organisations | `/resources/library/publishers/<slug>` |
+| `resources/library/publications/` | Channels (journals, podcasts, etc.) | `/resources/library/publications/<slug>` |
+| `resources/wiki/` | Neutral, encyclopedic, open contribution | `/resources/wiki/<slug>` |
+| `resources/glossary/` | Dictionary-schema term entries | `/resources/glossary/<slug>` |
+| `thinking/essays/` | POV writing by any contributor; includes model write-ups | `/thinking/essays/<slug>` |
+| `research/reports/` | Versioned formal compilations (lightpaper, whitepaper, position-paper, model-paper) | `/research/reports/<slug>` (latest); `/research/reports/<slug>/<version>` (specific) |
+| `research/observations/` | External signals from the world (data points, trends, cases, field findings, interview notes) | `/research/observations/<slug>` |
+| `research/insights/` | Atomic research findings synthesised from observations and/or library sources | `/research/insights/<slug>` |
+| `research/hypotheses/` | Testable predictions in "if [condition], then [outcome]" form | `/research/hypotheses/<slug>` |
 | `blog/` | Chronological project narrative | `/blog/<slug>` (URL flattened from `blog/<year>/<month>/<slug>.md`) |
 | `people/` | Unified profiles (authors, contributors, editors, designers, reviewers, external) | `/people/<slug>` |
+| `organizations/` | Organisation profiles | `/organizations/<slug>` |
 | `tags/` | Operational labels | `/tags/<slug>` |
+
+Top-level pages: `manifesto.md` → `/manifesto` (canonical), `about.md` → `/about`, `CONTRIBUTING.md` → `/contributing`.
 
 Plus auto-generated `/topics/<slug>` aggregation pages where a slug spans 2+ collections.
 
@@ -42,8 +47,8 @@ observations → insights → hypotheses
 
 ## File naming
 
-- **Flat `.md` files everywhere** with the filename matching the slug (e.g. `library/olleros-antirival-goods.md`). No `SOURCE.md` / `AUTHOR.md` / `REPORT.md` generic-inside-file naming.
-- **Reports** are the sole folder-based exception: `reports/<slug>/<version>/<slug>.md` with per-version subfolders.
+- **Flat `.md` files everywhere** with the filename matching the slug (e.g. `resources/library/olleros-antirival-goods.md`). No `SOURCE.md` / `AUTHOR.md` / `REPORT.md` generic-inside-file naming.
+- **Reports** are the sole folder-based exception: `research/reports/<slug>/<version>/<slug>.md` with per-version subfolders.
 - **Blog** uses `blog/<year>/<month>/<slug>.md` for human file-tree navigation; the URL is flat.
 
 ## Slug rules
@@ -64,7 +69,7 @@ Serials live in YAML frontmatter, not in filenames or folder names.
 
 Other content types (people, tags, insights, observations, hypotheses, wiki, essays, reports, glossary, blog posts) do **not** use serials.
 
-`library/INDEX.md` is the registry of assigned serials.
+`resources/library/INDEX.md` is the registry of assigned serials.
 
 ## Universal frontmatter fields
 
@@ -90,10 +95,10 @@ Where relevant:
 
 Wikilinks use **qualified paths** (Obsidian-native slash syntax).
 
-- `[[library/olleros-antirival-goods]]` → `/library/olleros-antirival-goods`
+- `[[resources/library/olleros-antirival-goods]]` → `/resources/library/olleros-antirival-goods`
 - `[[people/f-xavier-olleros|F. Xavier Olleros]]` → `/people/f-xavier-olleros` with custom display text
 - `[[tags/antirival]]` → `/tags/antirival`
-- `[[observations/...]]`, `[[hypotheses/...]]`, `[[insights/...]]`, `[[wiki/...]]`, `[[essays/...]]`, `[[glossary/...]]` — same pattern
+- `[[research/observations/...]]`, `[[research/hypotheses/...]]`, `[[research/insights/...]]`, `[[resources/wiki/...]]`, `[[thinking/essays/...]]`, `[[resources/glossary/...]]` — same pattern
 - `[[topics/antirival]]` → `/topics/antirival` (an aggregation page)
 
 **Bare wikilinks** (no slash):

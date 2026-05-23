@@ -39,9 +39,9 @@ Synthesises two observations and one library entry into a single claim about coo
 
 ## Analysis
 
-[[observations/weekend-readership-spike]] and [[observations/expert-interview-pattern]] come from very different methodological places — one is a quantitative engagement metric across platforms, the other is a qualitative finding from expert interviews. Both nevertheless point at the same underlying mechanism: in asynchronous coordination, what matters isn't the total amount of participation, but how it's clustered in time.
+[[research/observations/weekend-readership-spike]] and [[research/observations/expert-interview-pattern]] come from very different methodological places — one is a quantitative engagement metric across platforms, the other is a qualitative finding from expert interviews. Both nevertheless point at the same underlying mechanism: in asynchronous coordination, what matters isn't the total amount of participation, but how it's clustered in time.
 
-[[library/smith-network-coordination-2022|Smith (2022)]] provides the theoretical scaffolding for this — Section 4 specifically argues that asynchronous coordination's success depends on the "engagement density profile" rather than the engagement total.
+[[resources/library/smith-network-coordination-2022|Smith (2022)]] provides the theoretical scaffolding for this — Section 4 specifically argues that asynchronous coordination's success depends on the "engagement density profile" rather than the engagement total.
 
 ## Supporting Evidence
 
@@ -50,4 +50,4 @@ Synthesises two observations and one library entry into a single claim about coo
 
 ## Notes
 
-Stage `draft` so the website renders the WIP banner. This insight feeds into [[hypotheses/engagement-density-correlation|the engagement-density-correlation hypothesis]], which makes the claim testable.
+Stage `draft` so the website renders the WIP banner. This insight feeds into [[research/hypotheses/engagement-density-correlation|the engagement-density-correlation hypothesis]], which makes the claim testable.

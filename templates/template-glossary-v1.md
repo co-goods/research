@@ -23,7 +23,7 @@ richer fields (comparisons, multiple grammatical classes, aliases, acronyms)
 as content matures.
 
 Required (MVP subset):
-- File location: `glossary/<slug>.md`
+- File location: `resources/glossary/<slug>.md`
 - `slug`: bare kebab-case, **base form** (e.g. `co-goods`, not `co-goodsing`)
 - `name`: display form
 - `type`: `word | term | comparison`

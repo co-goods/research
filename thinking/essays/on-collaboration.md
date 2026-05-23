@@ -24,18 +24,18 @@ Placeholder essay used to exercise the essays template. Asks why and when collab
 
 ## The argument
 
-When the work is legible to a single mind, central direction wins: faster decisions, clearer accountability, less coordination overhead. When the work is illegible to a single mind — too complex, too distributed, too uncertain — collaboration wins, but only if the right structural conditions are in place. See [[wiki/network-coordination|Network Coordination]] for the mechanisms.
+When the work is legible to a single mind, central direction wins: faster decisions, clearer accountability, less coordination overhead. When the work is illegible to a single mind — too complex, too distributed, too uncertain — collaboration wins, but only if the right structural conditions are in place. See [[resources/wiki/network-coordination|Network Coordination]] for the mechanisms.
 
 The interesting question isn't "collaboration or hierarchy?" but "what's the legibility profile of the work, and what coordination structures are appropriate?"
 
 ## Evidence
 
-This essay draws on [[observations/weekend-readership-spike]] and [[observations/expert-interview-pattern]], which both surface signals that the legibility profile of online knowledge work has shifted over the last decade. The synthesising insight is [[insights/asynchronous-coordination-density]].
+This essay draws on [[research/observations/weekend-readership-spike]] and [[research/observations/expert-interview-pattern]], which both surface signals that the legibility profile of online knowledge work has shifted over the last decade. The synthesising insight is [[research/insights/asynchronous-coordination-density]].
 
 ## Citations
 
-- [[library/smith-network-coordination-2022|Smith (2022) — Network Coordination Under Asynchronous Participation]]
-- [[library/johnson-systems-thinking-2019|Johnson (2019) — Systems Thinking for the Curious]]
+- [[resources/library/smith-network-coordination-2022|Smith (2022) — Network Coordination Under Asynchronous Participation]]
+- [[resources/library/johnson-systems-thinking-2019|Johnson (2019) — Systems Thinking for the Curious]]
 
 ## Notes
 
