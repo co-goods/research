@@ -46,8 +46,8 @@ Universal fields where relevant:
 Use qualified-path Obsidian-style wikilinks:
 
 ```markdown
-The [[tags/antirival]] concept by [[people/f-xavier-olleros|F. Xavier Olleros]],
-introduced in [[resources/library/olleros-antirival-goods|Olleros (2018)]], shows how
+The [[tags/coordination]] concept by [[people/jane-doe|Jane Doe]],
+introduced in [[resources/library/smith-network-coordination-2022|Smith (2022)]], shows how
 [[tags/network-effects|network effects]] can drive open systems.
 ```
 
