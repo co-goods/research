@@ -1,34 +1,34 @@
 ---
 title: About Co-Goods
-slug: about
-type: page
-status: active
-created: 2025-09-11
-updated: 2026-05-21
 ---
 
-# About Co-Goods
+```hero
+variant: default
+eyebrow: About
+title: About Co-Goods
+subtitle: Research into protocols and tokens for co-created and networked physical products.
+```
 
-Research into protocols and tokens for co-created and networked physical products
-
+```prose
+```
 ## Project Overview
 
-The co-goods project explores the intersection of cooperative economics, digital protocols, and physical product creation. We're investigating how networked physical goods can exhibit antirival characteristics and create positive externalities through shared creation and use.
+The Co-Goods project explores the intersection of cooperative economics, digital protocols, and physical product creation. We're investigating how networked physical goods can exhibit antirival characteristics and create positive externalities through shared creation and use.
 
 Our research draws from economic theory, protocol design, and real-world case studies to develop frameworks for understanding and implementing co-created goods at scale.
 
 ## Research Focus
 
-### Antirival Goods Theory
+### Antirival goods theory
 Understanding how physical goods can exhibit increasing returns to shared use and network effects similar to digital platforms.
 
-### Protocol Design
+### Protocol design
 Developing frameworks for coordinating cooperative creation, ownership, and value distribution in networked physical goods.
 
-### Economic Models
+### Economic models
 Exploring new economic models for shared ownership, cooperative production, and value capture in physical goods networks.
 
-### Case Studies
+### Case studies
 Analyzing real-world examples of cooperative production, commons-based manufacturing, and networked physical goods.
 
 ## Methodology
@@ -37,8 +37,10 @@ Our research combines theoretical analysis with empirical investigation. We syst
 
 This research database serves as both a working tool for our investigation and a resource for others interested in cooperative economics and networked physical goods.
 
-## Contact
-
-This research is led by Pontus Karlsson and supported by contributors from various disciplines including economics, computer science, and cooperative studies.
-
-For questions or collaboration opportunities, please reach out through our [GitHub organization](https://github.com/co-goods).
+```cta
+heading: Get in touch
+description: This research is led by Pontus Karlsson with contributors across economics, computer science, and cooperative studies. For questions or collaboration, reach out through our GitHub organization.
+label: Co-Goods on GitHub
+href: https://github.com/co-goods
+variant: secondary
+```
