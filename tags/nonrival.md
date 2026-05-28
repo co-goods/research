@@ -1,8 +1,9 @@
 ---
+template: tag
+template_version: 1.0.0
+collection: tags
 name: Nonrival
 slug: nonrival
-type: tag
-template_version: 1
 editor: pontus-karlsson
 category: economic_theory
 description: Goods that can be consumed or used by multiple people simultaneously without depletion

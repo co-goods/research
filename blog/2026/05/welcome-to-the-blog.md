@@ -1,7 +1,9 @@
 ---
+template: blog-post
+template_version: 1.0.0
+collection: blog
 slug: welcome-to-the-blog
 title: Welcome to the Co-Goods Blog
-type: blog-post
 authors:
   - jane-doe
 publishedAt: 2026-05-21
@@ -28,7 +30,7 @@ Time-stamped narrative about the project — research updates, community moments
 
 A recent insight — [[research/insights/asynchronous-coordination-density]] — synthesised two observations into a testable hypothesis. See [[research/hypotheses/engagement-density-correlation]] for the validation plan.
 
-If you're interested in the underlying literature, start with [[resources/library/smith-network-coordination-2022|Smith (2022)]].
+If you're interested in the underlying literature, start with [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]].
 
 ## Notes
 

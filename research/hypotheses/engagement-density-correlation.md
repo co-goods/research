@@ -1,6 +1,8 @@
 ---
+template: hypothesis
+template_version: 1.0.0
+collection: hypotheses
 slug: engagement-density-correlation
-type: hypothesis
 title: Engagement Density Correlates With Coordination Quality (Testable)
 authors:
   - jane-doe

@@ -1,7 +1,9 @@
 ---
+template: essay
+template_version: 1.0.0
+collection: essays
 slug: on-collaboration
 title: On Collaboration
-type: essay
 authors:
   - jane-doe
 summary: A POV piece on why collaboration outperforms central direction at certain scales — placeholder content.
@@ -34,8 +36,8 @@ This essay draws on [[research/observations/weekend-readership-spike]] and [[res
 
 ## Citations
 
-- [[resources/library/smith-network-coordination-2022|Smith (2022) — Network Coordination Under Asynchronous Participation]]
-- [[resources/library/johnson-systems-thinking-2019|Johnson (2019) — Systems Thinking for the Curious]]
+- [[resources/library/papers/smith-network-coordination-2022|Smith (2022) — Network Coordination Under Asynchronous Participation]]
+- [[resources/library/books/johnson-systems-thinking-2019|Johnson (2019) — Systems Thinking for the Curious]]
 
 ## Notes
 

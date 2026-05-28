@@ -1,8 +1,9 @@
 ---
+template: tag
+template_version: 1.0.0
+collection: tags
 name: Sharing Economy
 slug: sharing-economy
-type: tag
-template_version: 1
 editor: pontus-karlsson
 category: economic_theory
 description: Economic model based on sharing, accessing, and exchanging resources through digital platforms rather than ownership

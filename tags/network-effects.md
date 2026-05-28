@@ -1,8 +1,9 @@
 ---
+template: tag
+template_version: 1.0.0
+collection: tags
 name: Network Effects
 slug: network-effects
-type: tag
-template_version: 1
 editor: pontus-karlsson
 category: economic_theory
 description: Economic phenomena where the value of a product or service increases as more people use it, creating positive feedback loops

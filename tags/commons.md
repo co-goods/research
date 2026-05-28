@@ -1,8 +1,9 @@
 ---
+template: tag
+template_version: 1.0.0
+collection: tags
 name: Commons
 slug: commons
-type: tag
-template_version: 1
 editor: pontus-karlsson
 category: economic_theory
 description: Shared resources managed collectively by a community, typically involving common ownership and collaborative governance
