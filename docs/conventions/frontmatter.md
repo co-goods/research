@@ -122,6 +122,16 @@ created: 2026-05-21
 updated: 2026-05-27
 ```
 
+### `discord:`
+
+An optional URL to a Discord channel or thread where this page is discussed. When set, the page shows a "Discuss on Discord" link next to "Edit this page on GitHub":
+
+```yaml
+discord: https://discord.com/channels/<server>/<channel-or-thread>
+```
+
+Use it on pages that have a dedicated discussion going. Absent = no Discord link on that page (the community Discord is always linked in the site footer).
+
 ### `license:` and `license_url:`
 
 Original content defaults to **CC BY-SA 4.0** — you don't declare it per item. Set `license:` (and optionally `license_url:`) only to **override** the default for a specific item:
