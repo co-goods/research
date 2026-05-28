@@ -1,0 +1,35 @@
+# Community events — data, not documents.
+#
+# Events are structured, time-based records, so they live here as a single
+# list rather than one markdown file each. The website's `events` block reads
+# this file and renders upcoming or past events.
+#
+# Each entry:
+#   title    (required) — the event name
+#   start    (required) — ISO 8601 datetime, e.g. 2026-06-12T17:00:00Z
+#   end      (optional) — ISO 8601 datetime
+#   kind     (required) — irl | video-call | discord-call
+#   location (optional) — where it happens (venue, "Online", a Discord channel)
+#   url      (optional) — link to join / RSVP / details
+#   summary  (optional) — one line on what it is
+
+- title: Co-Goods community call
+  start: 2026-06-12T17:00:00Z
+  end: 2026-06-12T18:00:00Z
+  kind: discord-call
+  location: Co-Goods Discord — #events
+  url: https://discord.gg/8asdWDW5QY
+  summary: Monthly sync — what's shipped, what's next, and open questions.
+
+- title: Open research session
+  start: 2026-06-26T16:00:00Z
+  end: 2026-06-26T17:30:00Z
+  kind: video-call
+  location: Online
+  summary: Work through open research questions together — bring a problem.
+
+- title: First IRL meetup (Stockholm)
+  start: 2026-05-20T18:00:00Z
+  kind: irl
+  location: Stockholm — venue TBA
+  summary: An early in-person gathering for people near Stockholm.
