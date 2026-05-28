@@ -1,11 +1,18 @@
 ---
+template: doc
+template_version: 1.0.0
+collection: schemas
+slug: library-entry
+title: "Library entry shape"
+description: "The bibliographic-item shape and the per-entity templates (book, paper, publisher, publication)."
+order: 20
 status: active
 stage: draft
 created: 2026-05-21
 updated: 2026-05-21T22:19
 ---
 
-# Library Entry Shape
+# Library entry shape
 
 Library entries describe bibliographic items — books, papers, podcasts, articles, videos, courses, posts. The shape is unified across all types; a `type:` discriminator handles per-type fields.
 

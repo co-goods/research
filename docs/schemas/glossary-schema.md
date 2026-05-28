@@ -1,11 +1,18 @@
 ---
+template: doc
+template_version: 1.0.0
+collection: schemas
+slug: glossary-schema
+title: "Glossary schema"
+description: "The DePalma Workshop Dictionary Schema and how Co-Goods uses it for glossary items."
+order: 10
 status: active
 stage: draft
 created: 2026-05-21
 updated: 2026-05-21T22:19
 ---
 
-# Glossary Schema
+# Glossary schema
 
 Glossary entries use the DePalma Workshop Dictionary Schema as their YAML frontmatter contract — a shared dictionary shape used across enterprises.
 

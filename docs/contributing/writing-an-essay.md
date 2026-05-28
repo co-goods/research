@@ -1,11 +1,18 @@
 ---
+template: doc
+template_version: 1.0.0
+collection: contributing
+slug: writing-an-essay
+title: "Writing an essay"
+description: "When to choose essay over other collections; voice, structure, and frontmatter conventions."
+order: 10
 status: active
 stage: draft
 created: 2026-05-21
 updated: 2026-05-21T22:20
 ---
 
-# Writing an Essay
+# Writing an essay
 
 Essays are POV writing by any contributor — interpretive, argumentative, opinionated. They sit alongside wiki articles (which aim for neutrality) and reports (which are versioned formal compilations).
 

@@ -1,11 +1,18 @@
 ---
+template: doc
+template_version: 1.0.0
+collection: contributing
+slug: adding-library-entry
+title: "Adding a library entry"
+description: "How to add books, papers, podcasts, and other references to the library."
+order: 20
 status: active
 stage: draft
 created: 2026-05-21
 updated: 2026-05-21T22:20
 ---
 
-# Adding a Library Entry
+# Adding a library entry
 
 When you want to add a book, paper, podcast, or other reference to the library — either because you're going to cite it in research, or because you want to recommend it on the public library page.
 
