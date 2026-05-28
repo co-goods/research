@@ -1,7 +1,9 @@
 ---
+template: person
+template_version: 1.0.0
+collection: people
 slug: pontus-karlsson
 name: Pontus Karlsson
-type: person
 affiliation: co-goods-team
 role: Project Lead
 email: ""

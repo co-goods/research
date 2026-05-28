@@ -1,7 +1,9 @@
 ---
+template: publication
+template_version: 1.0.0
+collection: publications
 slug: example-journal
 name: Example Journal
-type: publication
 publication_type: journal
 publisher: example-press
 url: https://example.org/journal
@@ -22,4 +24,4 @@ Hypothetical journal covering coordination patterns, distributed systems, and ne
 
 ## Notable papers
 
-- [[resources/library/smith-network-coordination-2022|Smith (2022) — Network Coordination]]
+- [[resources/library/papers/smith-network-coordination-2022|Smith (2022) — Network Coordination]]

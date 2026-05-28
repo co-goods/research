@@ -1,7 +1,9 @@
 ---
+template: glossary-item
+template_version: 1.0.0
+collection: glossary
 slug: network-coordination
 name: network coordination
-type: term
 classes:
   - type: noun
     definitions:
@@ -41,7 +43,7 @@ updated: 2026-05-21T17:53
 ## See also
 
 - Wiki article: [[resources/wiki/network-coordination]] (intentionally shares this slug — the website should auto-generate a topic-aggregation page at `/topics/network-coordination`).
-- Library: [[resources/library/smith-network-coordination-2022|Smith (2022)]].
+- Library: [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]].
 
 ## Notes
 

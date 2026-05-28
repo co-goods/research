@@ -1,7 +1,9 @@
 ---
+template: person
+template_version: 1.0.0
+collection: people
 slug: jane-doe
 name: Jane Doe
-type: person
 affiliation: external-author
 institution: Example University, Department of Coordination Studies
 bio: Placeholder person profile used to exercise the people template; do not treat as real.
@@ -33,7 +35,7 @@ updated: 2026-05-21T17:52
 
 ## Bio
 
-Placeholder external-author profile used to exercise the people template. Affiliated with Example University's Department of Coordination Studies. Wrote [[resources/library/smith-network-coordination-2022|the 2022 paper on network coordination]] and the earlier book [[resources/library/johnson-systems-thinking-2019|Systems Thinking for the Curious (2019)]].
+Placeholder external-author profile used to exercise the people template. Affiliated with Example University's Department of Coordination Studies. Wrote [[resources/library/papers/smith-network-coordination-2022|the 2022 paper on network coordination]] and the earlier book [[resources/library/books/johnson-systems-thinking-2019|Systems Thinking for the Curious (2019)]].
 
 ## Relevance to Co-Goods
 

@@ -1,8 +1,10 @@
 ---
+template: paper
+template_version: 1.0.0
+collection: papers
 slug: smith-network-coordination-2022
 serial: x-00001
 title: Network Coordination Under Asynchronous Participation
-type: paper
 authors:
   - jane-doe
 publication: example-journal

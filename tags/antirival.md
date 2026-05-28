@@ -1,8 +1,9 @@
 ---
+template: tag
+template_version: 1.0.0
+collection: tags
 name: Antirival
 slug: antirival
-type: tag
-template_version: 1
 editor: pontus-karlsson
 aliases:
   - antirivalness

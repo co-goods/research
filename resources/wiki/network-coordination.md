@@ -1,7 +1,9 @@
 ---
+template: wiki-article
+template_version: 1.0.0
+collection: wiki
 slug: network-coordination
 title: Network Coordination
-type: wiki
 summary: Patterns and mechanisms by which distributed participants align their actions across a network without central direction.
 tags:
   - coordination
@@ -38,7 +40,7 @@ This wiki article is placeholder content used to exercise the wiki template — 
 ## Examples in the wild
 
 - Asynchronous open-source contributions (see [[research/observations/weekend-readership-spike]] and [[research/observations/expert-interview-pattern]]).
-- Wikipedia editing (referenced in [[resources/library/smith-network-coordination-2022|Smith 2022]]).
+- Wikipedia editing (referenced in [[resources/library/papers/smith-network-coordination-2022|Smith 2022]]).
 - Standards bodies and their consensus processes.
 
 ## See also

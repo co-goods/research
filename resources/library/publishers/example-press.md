@@ -1,7 +1,9 @@
 ---
+template: publisher
+template_version: 1.0.0
+collection: publishers
 slug: example-press
 name: Example Press
-type: publisher
 publisher_type: publisher
 url: https://example.org/press
 founded: 2010
@@ -21,5 +23,5 @@ Placeholder publisher used to exercise the publishers template. Founded 2010, hy
 
 ## Notable works published
 
-- [[resources/library/smith-network-coordination-2022|Smith (2022) — Network Coordination]]
-- [[resources/library/johnson-systems-thinking-2019|Johnson (2019) — Systems Thinking]]
+- [[resources/library/papers/smith-network-coordination-2022|Smith (2022) — Network Coordination]]
+- [[resources/library/books/johnson-systems-thinking-2019|Johnson (2019) — Systems Thinking]]

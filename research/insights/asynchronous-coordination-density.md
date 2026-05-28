@@ -1,7 +1,9 @@
 ---
+template: insight
+template_version: 1.0.0
+collection: insights
 slug: asynchronous-coordination-density
 title: Engagement Density Predicts Coordination Quality in Asynchronous Networks
-type: insight
 summary: When participation is asynchronous, engagement DENSITY (concentration per unit time) matters more than total engagement volume for coordination quality.
 tags:
   - coordination
@@ -41,7 +43,7 @@ Synthesises two observations and one library entry into a single claim about coo
 
 [[research/observations/weekend-readership-spike]] and [[research/observations/expert-interview-pattern]] come from very different methodological places — one is a quantitative engagement metric across platforms, the other is a qualitative finding from expert interviews. Both nevertheless point at the same underlying mechanism: in asynchronous coordination, what matters isn't the total amount of participation, but how it's clustered in time.
 
-[[resources/library/smith-network-coordination-2022|Smith (2022)]] provides the theoretical scaffolding for this — Section 4 specifically argues that asynchronous coordination's success depends on the "engagement density profile" rather than the engagement total.
+[[resources/library/papers/smith-network-coordination-2022|Smith (2022)]] provides the theoretical scaffolding for this — Section 4 specifically argues that asynchronous coordination's success depends on the "engagement density profile" rather than the engagement total.
 
 ## Supporting Evidence
 

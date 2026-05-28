@@ -1,7 +1,9 @@
 ---
+template: tag
+template_version: 1.0.0
+collection: tags
 slug: coordination
 name: Coordination
-type: tag
 definition: Patterns and mechanisms by which distributed participants align their actions toward shared outcomes.
 related_tags:
   - network-effects

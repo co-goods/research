@@ -1,8 +1,9 @@
 ---
+template: tag
+template_version: 1.0.0
+collection: tags
 name: Co-Goods
 slug: co-goods
-type: tag
-template_version: 1
 editor: pontus-karlsson
 category: framework
 description: The Co-Goods framework for transforming physical products from extractive to regenerative systems through demand-driven co-creation and antirival dynamics

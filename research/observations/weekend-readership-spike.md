@@ -1,6 +1,8 @@
 ---
+template: observation
+template_version: 1.0.0
+collection: observations
 slug: weekend-readership-spike
-type: observation
 title: Weekend Readership Spike on Long-Form Posts
 authors:
   - jane-doe
@@ -24,7 +26,7 @@ updated: 2026-05-21T17:53
 
 Across multiple example platforms, long-form posts received 3–5× the engagement on weekend days compared with weekdays — but only for posts in the top engagement quartile. Lower-engagement posts showed no day-of-week effect. The pattern held across multiple geographies once normalised for timezone.
 
-The signal first surfaced in [[resources/library/smith-network-coordination-2022|Smith (2022)]], Section 4, as part of a discussion of asynchronous participation patterns.
+The signal first surfaced in [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]], Section 4, as part of a discussion of asynchronous participation patterns.
 
 ## Why it matters
 

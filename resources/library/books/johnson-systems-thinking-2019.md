@@ -1,8 +1,10 @@
 ---
+template: book
+template_version: 1.0.0
+collection: books
 slug: johnson-systems-thinking-2019
 serial: x-00002
 title: Systems Thinking for the Curious
-type: book
 authors:
   - jane-doe
 publisher: example-press
@@ -51,4 +53,4 @@ Placeholder commentary. In a real entry this would describe how the book's frami
 
 ## Notes
 
-Cited indirectly via [[research/observations/expert-interview-pattern]], which draws on chapter 4's discussion of expert-novice coordination patterns. See also [[resources/library/smith-network-coordination-2022|Smith (2022)]] for a more formal treatment.
+Cited indirectly via [[research/observations/expert-interview-pattern]], which draws on chapter 4's discussion of expert-novice coordination patterns. See also [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]] for a more formal treatment.

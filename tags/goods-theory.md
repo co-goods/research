@@ -1,8 +1,9 @@
 ---
+template: tag
+template_version: 1.0.0
+collection: tags
 name: Goods Theory
 slug: goods-theory
-type: tag
-template_version: 1
 editor: pontus-karlsson
 category: economic_theory
 description: Economic framework for classifying and understanding different types of goods based on rivalry, excludability, and consumption characteristics
