@@ -1,62 +1,91 @@
+---
+template: plain-page
+template_version: 1.0.0
+title: "Contributing to Co-Goods Research"
+status: active
+stage: published
+---
+
 # Contributing to Co-Goods Research
 
-Welcome! Co-Goods is an open-innovation research project. Anyone is welcome to contribute — drafts, refinements, citations, new wiki articles, essays, glossary entries, library items, fixes.
+Welcome! Co-Goods is an open-innovation research project. Anyone is welcome to contribute — drafts, refinements, citations, new wiki articles, essays, glossary items, library entries, fixes.
 
-This document covers *how* to contribute. For the *what* — collections, schemas, conventions — see [`docs/taxonomy.md`](./docs/taxonomy.md) and the `templates/` directory.
+This document covers *how* to contribute. For the *what* — collections, items, templates — see [`docs/conventions/taxonomy.md`](./docs/conventions/taxonomy.md) and the `templates/` directory.
 
 ## Quick start
 
 1. **Fork** this repository on GitHub.
 2. **Create a branch** for your change (`feature/add-wiki-antirival`, `docs/fix-typo`, etc.).
-3. **Make your edits** using the appropriate template from `templates/`.
-4. For new or in-progress content, set frontmatter `status: active, stage: draft`. The website will render it with a "Draft — work in progress" banner.
-5. **Open a pull request** to `main`. Describe your change briefly and link any relevant Discord discussion.
-6. The Co-Goods core team reviews. When ready, the maintainer flips `stage: draft` → `stage: published` and merges.
+3. **Pick the right template** from `templates/` — copy the latest `template-<entity>-v<X.Y.Z>.md` to the target folder under your slug.
+4. **Fill in the frontmatter** (`template`, `template_version`, `collection`, plus per-template fields) and the body.
+5. For new or in-progress content, set frontmatter `status: active, stage: draft`. The website renders it with a "Draft — work in progress" banner.
+6. **Open a pull request** to `main`. Describe your change briefly and link any relevant Discord discussion.
+7. The Co-Goods core team reviews. When ready, the maintainer flips `stage: draft` → `stage: published` and merges.
 
 ## Where things go
 
-| Content | Location | Template |
+| Content | Folder | Template |
 |---|---|---|
-| Library item (book / paper / podcast / etc.) | `resources/library/<slug>.md` | `template-library-v1.md` |
-| Wiki article (neutral encyclopedic) | `resources/wiki/<slug>.md` | `template-wiki-v1.md` |
-| Essay / model write-up (POV) | `thinking/essays/<slug>.md` | `template-essay-v1.md` |
-| Report (versioned formal compilation) | `research/reports/<slug>/v0.1/<slug>.md` | `template-report-v1.md` |
-| Glossary entry | `resources/glossary/<slug>.md` | `template-glossary-v1.md` |
-| Blog post | `blog/<year>/<month>/<slug>.md` | `template-blog-post-v1.md` |
-| Person profile | `people/<slug>.md` | `template-people-v1.md` |
-| Tag | `tags/<slug>.md` | `template-tags-v1.md` |
-| Insight (atomic research finding) | `research/insights/<slug>.md` | `template-insights-v1.md` |
+| Essay (POV) | `thinking/essays/<slug>.md` | `template-essay-v1.0.0.md` |
+| Wiki article (neutral encyclopedic) | `resources/wiki/<slug>.md` | `template-wiki-article-v1.0.0.md` |
+| Glossary item | `resources/glossary/<slug>.md` | `template-glossary-item-v1.0.0.md` |
+| Book | `resources/library/books/<slug>.md` | `template-book-v1.0.0.md` |
+| Paper | `resources/library/papers/<slug>.md` | `template-paper-v1.0.0.md` |
+| Publisher | `resources/library/publishers/<slug>.md` | `template-publisher-v1.0.0.md` |
+| Publication (journal, podcast channel, …) | `resources/library/publications/<slug>.md` | `template-publication-v1.0.0.md` |
+| Observation | `research/observations/<slug>.md` | `template-observation-v1.0.0.md` |
+| Insight | `research/insights/<slug>.md` | `template-insight-v1.0.0.md` |
+| Hypothesis | `research/hypotheses/<slug>.md` | `template-hypothesis-v1.0.0.md` |
+| Blog post | `blog/<year>/<month>/<slug>.md` | `template-blog-post-v1.0.0.md` |
+| Person profile | `people/<slug>.md` | `template-person-v1.0.0.md` |
+| Tag | `tags/<slug>.md` | `template-tag-v1.0.0.md` |
+| Doc article | `docs/<collection>/<slug>.md` (or `docs/<collection>/<sub-collection>/<slug>.md`) | `template-doc-v1.0.0.md` |
 
-For library items, the maintainer assigns the next `l-#####` serial on merge and updates `resources/library/INDEX.md`.
+For books and papers, the maintainer assigns the next `l-#####` serial on merge and updates `resources/library/INDEX.md`. Example content (placeholder, `example: true`) uses the `x-#####` namespace instead.
 
-See [`docs/taxonomy.md`](./docs/taxonomy.md) for the full conventions.
+Future library entities (`podcast`, `podcast-episode`, `article`, `video`, `course`, `post`) and report types (`lightpaper`, `whitepaper`, `position-paper`, `model-paper`) get their own templates when the first content lands.
+
+See [`docs/conventions/taxonomy.md`](./docs/conventions/taxonomy.md) for the full model and [`docs/conventions/file-naming.md`](./docs/conventions/file-naming.md) for slug conventions per collection.
 
 ## Frontmatter
 
-Every content file starts with a YAML frontmatter block. The template for each collection documents the required and optional fields inline (`<!-- schema notes -->`).
+Every content file starts with a YAML frontmatter block. The universal contract is:
 
-Universal fields where relevant:
-- `slug` — bare kebab-case; matches filename
-- `status: active | inactive` — visible on website?
-- `stage: draft | published` — WIP banner or polished?
-- `created`, `updated` — ISO dates (`YYYY-MM-DD`)
+```yaml
+template: <entity name>           # singular: essay, book, paper, doc, tag, person, …
+template_version: 1.0.0
+collection: <collection name>     # plural: essays, books, papers, conventions/naming, …
+title: "..."
+```
+
+Each template's `<!-- schema notes -->` block documents its per-template fields. See [`docs/conventions/frontmatter.md`](./docs/conventions/frontmatter.md) for the universal contract and common patterns.
 
 ## Wikilinks
 
-Use qualified-path Obsidian-style wikilinks:
+Use qualified-path Obsidian-style wikilinks in body markdown:
 
 ```markdown
 The [[tags/coordination]] concept by [[people/jane-doe|Jane Doe]],
-introduced in [[resources/library/smith-network-coordination-2022|Smith (2022)]], shows how
+introduced in [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]], shows how
 [[tags/network-effects|network effects]] can drive open systems.
 ```
 
 Bare wikilinks (no slash) default to `/topics/<slug>` if a topic-aggregation page exists; otherwise they cause a build error. When in doubt, qualify.
 
+In frontmatter arrays, use bare slugs — the collection is implicit from the field name:
+
+```yaml
+sources: [smith-network-coordination-2022]
+authors: [jane-doe]
+tags: [antirival, network-effects, sharing-economy]
+```
+
+See [`docs/conventions/wikilinks.md`](./docs/conventions/wikilinks.md).
+
 ## Assets (images and files)
 
 - **Small images or files** — include them in your PR. Drop into the same folder as your `.md` file or attach in the PR description. The maintainer will place them correctly at merge.
-- **Larger or many files** — include a download link in the PR description (Dropbox share, Google Drive, WeTransfer — whatever you have). The maintainer downloads and places at merge.
+- **Larger or many files** — include a download link in the PR description (any share that works for you). The maintainer downloads and places at merge.
 
 All images must come with attribution and license metadata compatible with CC BY-SA 4.0.
 
@@ -65,7 +94,7 @@ All images must come with attribution and license metadata compatible with CC BY
 - **Discord** — community discussion and async chat: [Discord — link TBD]
 - **PR comments** — issue-specific discussion lives in the PR itself.
 
-For substantial changes (new schema fields, new collection types, structural changes), please open a Discord thread first — these touch the architecture-review log and need broader alignment.
+For substantial changes (new templates, new collections, structural changes), please open a Discord thread first — these touch the conventions docs and benefit from broader alignment.
 
 ## Review process
 

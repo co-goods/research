@@ -1,82 +1,96 @@
-# Co-Goods — Research
+# Co-Goods — content
 
-Research content and documentation for the Co-Goods protocol — a system for co-created and networked physical products.
+Research content for the Co-Goods protocol — a system for co-created and networked physical products. This repository is the **content store**; the website (`co-goods/website`) renders it via a submodule.
 
-This repository is the content store; the website (`co-goods/website`) renders it via a submodule.
+The taxonomy and conventions live alongside the content under `docs/conventions/`. The canonical references:
+
+- [**Taxonomy**](./docs/conventions/taxonomy.md) — collections, items, templates, the flat-vs-nested rule.
+- [**Templates and versioning**](./docs/conventions/templates-and-versioning.md) — semver, naming, archive workflow.
+- [**Frontmatter contract**](./docs/conventions/frontmatter.md) — universal + per-template fields.
+- [**File naming and slugs**](./docs/conventions/file-naming.md) — flat .md files, per-collection slug patterns, serials.
+- [**Wikilinks**](./docs/conventions/wikilinks.md) — qualified-path syntax and frontmatter array convention.
+- [**The epistemic chain**](./docs/conventions/epistemic-chain.md) — observation → insight → hypothesis.
 
 ## Collections
 
-- **resources/library/** — bibliographic records (books, papers, podcasts, articles, videos, courses, posts). Includes nested `resources/library/publishers/` and `resources/library/publications/`.
-- **resources/wiki/** — neutral encyclopedic articles, open contribution.
-- **thinking/essays/** — POV writing by any contributor; includes model write-ups.
-- **research/reports/** — versioned formal compilations (lightpaper, whitepaper, position paper, model paper). Folder-per-version (`research/reports/<slug>/<version>/<slug>.md`).
-- **research/observations/** — external signals from the world (data points, trends, cases, field findings, interview notes).
-- **research/insights/** — atomic research findings synthesised from observations and/or library sources.
-- **research/hypotheses/** — testable predictions in "if [condition], then [outcome]" form, with a validation-status lifecycle.
-- **resources/glossary/** — dictionary-schema term entries.
-- **blog/** — chronological project narrative.
-- **people/** — unified profiles (authors, contributors, editors, designers, reviewers, external).
-- **tags/** — operational labels.
-- **templates/** — versioned templates for each collection.
-- **docs/** — meta documentation about the repo (`taxonomy.md` lives here).
-- **about.md** — project overview (renders on website).
+| Collection | URL | Folder |
+|---|---|---|
+| `essays` | `/thinking/essays/<slug>` | `thinking/essays/` |
+| `wiki` | `/resources/wiki/<slug>` | `resources/wiki/` |
+| `glossary` | `/resources/glossary/<slug>` | `resources/glossary/` |
+| `books` | `/resources/library/books/<slug>` | `resources/library/books/` |
+| `papers` | `/resources/library/papers/<slug>` | `resources/library/papers/` |
+| `publishers` | `/resources/library/publishers/<slug>` | `resources/library/publishers/` |
+| `publications` | `/resources/library/publications/<slug>` | `resources/library/publications/` |
+| `observations` | `/research/observations/<slug>` | `research/observations/` |
+| `insights` | `/research/insights/<slug>` | `research/insights/` |
+| `hypotheses` | `/research/hypotheses/<slug>` | `research/hypotheses/` |
+| `blog` | `/blog/<slug>` *(flat URL)* | `blog/<year>/<month>/<slug>.md` |
+| `people` | `/people/<slug>` | `people/` |
+| `organizations` | `/organizations/<slug>` | `organizations/` |
+| `tags` | `/tags/<slug>` | `tags/` |
+| `conventions` (docs) | `/docs/conventions/<slug>` | `docs/conventions/` |
+| `schemas` (docs) | `/docs/schemas/<slug>` | `docs/schemas/` |
+| `contributing` (docs) | `/docs/contributing/<slug>` | `docs/contributing/` |
+
+Future library entities (`podcasts`, `podcast-episodes`, `articles`, `videos`, `courses`, `posts`) and report types (`lightpapers`, `whitepapers`, `position-papers`, `model-papers`) get their own templates and folders when first content lands.
+
+## Singletons
+
+- `thinking/manifesto.md` → `/thinking/manifesto`
+- `CONTRIBUTING.md` → `/contributing`
+
+Both use the `plain-page` template.
+
+## Templates
+
+The active set lives at `templates/`; superseded versions sit in `templates/_archive/`. See [`docs/conventions/templates-and-versioning.md`](./docs/conventions/templates-and-versioning.md) for the convention.
 
 ## Content workflow
 
-1. Use templates in `templates/` to create new content.
-2. Save files in the appropriate collection (e.g. `resources/library/olleros-antirival-goods.md`).
-3. For drafts, set `status: active, stage: draft` — the website shows a WIP banner.
-4. When polished, set `stage: published`.
-5. Content arrives on the website via the submodule.
+1. Pick the template that matches what you're writing — see [`docs/conventions/taxonomy.md`](./docs/conventions/taxonomy.md).
+2. Copy the latest `templates/template-<entity>-v<X.Y.Z>.md` to the right folder under its real slug.
+3. Fill in the frontmatter (`template`, `template_version`, `collection`, plus per-template fields) and the body.
+4. For drafts, set `status: active, stage: draft` — the website renders a WIP banner.
+5. Open a PR.
 
-See **CONTRIBUTING.md** for the PR-based contribution flow.
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the full PR-based contribution flow.
 
-## Obsidian wikilinks
+## Wikilinks
 
-Write Obsidian-native qualified-path wikilinks:
+Use qualified-path Obsidian-style wikilinks in body markdown:
 
 ```markdown
-The [[tags/antirival]] concept by [[people/f-xavier-olleros|F. Xavier Olleros]],
-introduced in [[resources/library/olleros-antirival-goods|Olleros (2018)]], shows how
-[[tags/network-effects|network effects]] can drive open systems.
+The [[tags/coordination]] concept by [[people/jane-doe|Jane Doe]],
+introduced in [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]], shows
+how [[tags/network-effects|network effects]] can drive open systems.
 ```
 
-In frontmatter arrays, use bare slugs (collection is implicit from the field name):
+In frontmatter arrays, use bare slugs — the collection is implicit from the field name:
 
 ```yaml
-sources: [olleros-antirival-goods]
-authors: [pontus-karlsson]
+sources: [smith-network-coordination-2022]
+authors: [jane-doe]
 tags: [antirival, network-effects, sharing-economy]
 ```
+
+See [`docs/conventions/wikilinks.md`](./docs/conventions/wikilinks.md) for the full convention.
 
 ## Current content
 
 **Curated:**
+
 - **1 person (co-goods-team):** Pontus Karlsson (project lead)
 - **7 tags:** antirival, network-effects, sharing-economy, commons, goods-theory, nonrival, co-goods
 
 **Example content** (`example: true`; placeholder data used to exercise the website's templates, filtered from production renders, easy to remove in bulk):
-- **2 library items** (serials `x-00001`, `x-00002`) + 1 publisher + 1 publication
+
+- **1 book** (serial `x-00002`), **1 paper** (serial `x-00001`), **1 publisher**, **1 publication**
 - **1 person** (external author placeholder)
 - **2 observations**, **1 insight**, **1 hypothesis** (exercises the epistemic chain)
-- **1 wiki article**, **1 essay**, **1 blog post**, **1 glossary entry**, **1 tag**
+- **1 wiki article**, **1 essay**, **1 blog post**, **1 glossary item**, **1 tag** (coordination)
 
-The `research/reports/` collection is scaffolded empty. The first curated library entry will receive serial `l-00001`.
-
-## Templates
-
-See `templates/`. Active set (v1):
-
-- `template-library-v1.md`
-- `template-people-v1.md`
-- `template-wiki-v1.md`, `template-essay-v1.md`, `template-report-v1.md`, `template-blog-post-v1.md`, `template-glossary-v1.md`
-- `template-insights-v1.md`, `template-observation-v1.md`, `template-hypothesis-v1.md`, `template-tags-v1.md`
-
-Each template carries an inline `<!-- schema notes -->` block describing its frontmatter contract.
-
-## Quality standards
-
-See [`docs/taxonomy.md`](./docs/taxonomy.md) for conventions (collections, file naming, slug rules, serials, universal frontmatter, wikilinks, the epistemic chain).
+The first curated book / paper / podcast / etc. lands with serial `l-00001`.
 
 ## License
 

@@ -1,4 +1,6 @@
 ---
+template: plain-page
+template_version: 1.0.0
 title: Co-Goods Manifesto
 summary: A protocol for co-created and networked physical products that become more valuable through shared use and collaborative ownership.
 status: active
