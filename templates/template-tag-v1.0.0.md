@@ -1,7 +1,8 @@
 ---
+template: tag
+template_version: 1.0.0
 slug: ""
 name: ""
-type: tag
 definition: ""
 related_tags: []
 status: active
@@ -18,7 +19,7 @@ Clear definition of what this tag represents and when it should be used.
 - `[[tags/...]]` — related tags
 
 <!--
-Tag schema (v1) — per p-002 architecture review ADR-013.
+Tag schema (template: tag, v1.0.0).
 
 - File location: `tags/<slug>.md`
 - Flat slug with optional definition. **No category field** (the earlier

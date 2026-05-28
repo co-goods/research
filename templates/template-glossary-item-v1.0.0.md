@@ -1,7 +1,8 @@
 ---
+template: glossary-item
+template_version: 1.0.0
 slug: ""
 name: ""
-type: ""
 classes: []
 relationships:
   related_terms: []
@@ -15,7 +16,7 @@ updated: "{{date}}"
 # {{name}}
 
 <!--
-Glossary entry schema (v1) — per p-002 architecture review ADR-015.
+Glossary item schema (template: glossary-item, v1.0.0).
 
 Co-Goods adopts the DePalma Workshop Dictionary Schema (CC BY-SA 4.0) as the
 contract for glossary entries. Start with this minimal subset; grow into
@@ -26,7 +27,6 @@ Required (MVP subset):
 - File location: `resources/glossary/<slug>.md`
 - `slug`: bare kebab-case, **base form** (e.g. `co-goods`, not `co-goodsing`)
 - `name`: display form
-- `type`: `word | term | comparison`
 - `classes`: list of grammatical classes with definitions. Example:
 
     classes:
@@ -40,7 +40,9 @@ Required (MVP subset):
         definitions:
           - "To do ..."
 
-- `relationships.related_terms`: slugs of related glossary entries
+  The inner `classes[].type` is the grammatical class (noun / verb / adjective / …).
+
+- `relationships.related_terms`: slugs of related glossary items
 
 Optional (richer dictionary fields — see schema reference):
 - `aliases`, `acronyms`, `comparisons`, `usage`, `register`

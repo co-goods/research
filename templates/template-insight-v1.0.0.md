@@ -1,7 +1,8 @@
 ---
+template: insight
+template_version: 1.0.0
 slug: ""
 title: ""
-type: insight
 summary: ""
 tags: []
 sources: []
@@ -33,7 +34,7 @@ Additional evidence, quotes, or data that support this insight.
 Additional notes, observations, or considerations.
 
 <!--
-Insight schema (v1).
+Insight schema (template: insight, v1.0.0).
 
 - File location: `research/insights/<slug>.md`
 - Atomic research finding. Living document — updates in place.
@@ -44,15 +45,14 @@ Insight schema (v1).
 - `stage: draft` shows a WIP banner on the website; `stage: published` removes it
 - `example: true` marks dummy/test content (default `false`; opt-in only)
 
-Chain rule: every insight must have at
-least one upstream link — either `observations:` (preferred when synthesising
-across multiple signals) OR `sources:` (when the insight is a direct
-theoretical extension of a published source). Both can be populated; neither
-can be empty.
+Chain rule: every insight must have at least one upstream link — either
+`observations:` (preferred when synthesising across multiple signals) OR
+`sources:` (when the insight is a direct theoretical extension of a published
+source). Both can be populated; neither can be empty.
 
 Wikilinks use qualified paths:
 
-- `[[resources/library/olleros-antirival-goods|Olleros (2018)]]` → /resources/library/olleros-antirival-goods
+- `[[resources/library/papers/olleros-antirival-goods|Olleros (2018)]]` → /resources/library/papers/olleros-antirival-goods
 - `[[people/f-xavier-olleros|F. Xavier Olleros]]` → /people/f-xavier-olleros
 - `[[research/observations/<slug>]]`, `[[research/hypotheses/<slug>]]`, `[[resources/wiki/<slug>]]`,
   `[[thinking/essays/<slug>]]`, `[[resources/glossary/<slug>]]`, etc.

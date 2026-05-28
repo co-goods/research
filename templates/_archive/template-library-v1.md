@@ -35,7 +35,7 @@ Our project's perspective on this work and how it informs co-goods thinking.
 Additional notes, thoughts, or questions about the source.
 
 <!--
-Library entry schema (v1) — per p-002 architecture review ADR-004 / ADR-005 / ADR-007.
+Library entry schema (v1) — superseded by per-entity templates (book, paper, publisher, publication, …).
 
 Required:
 - File location: `resources/library/<slug>.md` (flat; no folder-with-inside-file)

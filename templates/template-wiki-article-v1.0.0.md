@@ -1,7 +1,8 @@
 ---
+template: wiki-article
+template_version: 1.0.0
 slug: ""
 title: ""
-type: wiki
 summary: ""
 tags: []
 related: []
@@ -24,10 +25,10 @@ Background and scope.
 ## Related
 - `[[resources/wiki/...]]` — related wiki articles
 - `[[thinking/essays/...]]` — relevant essays
-- `[[resources/library/...]]` — library entries
+- `[[resources/library/books/...]]`, `[[resources/library/papers/...]]` — library entries
 
 <!--
-Wiki article schema (v1) — per p-002 architecture review ADR-008 / ADR-014.
+Wiki article schema (template: wiki-article, v1.0.0).
 
 - File location: `resources/wiki/<slug>.md`
 - Voice: **neutral, encyclopedic**. Open contribution via PR.

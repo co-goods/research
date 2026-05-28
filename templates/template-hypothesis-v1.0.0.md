@@ -1,6 +1,7 @@
 ---
+template: hypothesis
+template_version: 1.0.0
 slug: ""
-type: hypothesis
 title: ""
 authors: []
 insights: []
@@ -42,7 +43,7 @@ Updates as evidence accumulates — date, source, what happened. The `validation
 Open questions, caveats.
 
 <!--
-Hypothesis schema (v1).
+Hypothesis schema (template: hypothesis, v1.0.0).
 
 - File location: `research/hypotheses/<slug>.md` (flat; slug-only naming, no serial)
 - Form: testable prediction — "If [decision/condition/property], then [outcome]"

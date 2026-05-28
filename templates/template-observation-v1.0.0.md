@@ -1,6 +1,7 @@
 ---
+template: observation
+template_version: 1.0.0
 slug: ""
-type: observation
 title: ""
 authors: []
 sources: []
@@ -33,7 +34,7 @@ Cross-references to other observations that share context or contrast with this 
 Open questions, caveats, things to verify.
 
 <!--
-Observation schema (v1).
+Observation schema (template: observation, v1.0.0).
 
 - File location: `research/observations/<slug>.md` (flat; slug-only naming, no serial)
 - Voice: external signal from the world (data, trend, case, field finding, interview)

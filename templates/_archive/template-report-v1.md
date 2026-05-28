@@ -27,7 +27,7 @@ Brief abstract / executive summary.
 - {{version}} ({{date}}): initial draft.
 
 <!--
-Report schema (v1) — per p-002 architecture review ADR-008 / ADR-009 / ADR-010.
+Report schema (v1) — superseded; the per-type split (lightpaper, whitepaper, position-paper, model-paper) lands when content does.
 
 - File location: `research/reports/<slug>/<version>/<slug>.md`
   Each report is a folder; each version a sub-folder.

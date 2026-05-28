@@ -1,7 +1,8 @@
 ---
+template: essay
+template_version: 1.0.0
 slug: ""
 title: ""
-type: essay
 authors: []
 summary: ""
 tags: []
@@ -20,17 +21,15 @@ One- or two-sentence summary or hook.
 ## ...essay sections...
 
 <!--
-Essay schema (v1) — per p-002 architecture review ADR-008 / ADR-010 / ADR-014.
+Essay schema (template: essay, v1.0.0).
 
 - File location: `thinking/essays/<slug>.md`
 - Voice: **POV writing** by an identified contributor. Distinct from wiki
-  (which is neutral / encyclopedic).
-- Models (structured frameworks like the co-goods lifecycle) live here too;
-  use `type: model` in frontmatter if you want to surface that, otherwise
-  `type: essay`.
+  articles (which are neutral / encyclopedic).
+- Models (structured frameworks like the co-goods lifecycle) live here too.
 - Living document — updates in place; git history is the version log. When
-  mature, an essay may graduate to a versioned report at
-  `research/reports/<slug>/v1.0/<slug>.md`.
+  mature, an essay may graduate to a versioned report under
+  `research/reports/<type>/<slug>/<version>/<slug>.md`.
 - `stage: draft` shows the WIP banner; `stage: published` removes it.
 - `authors`: bare people slugs.
 -->

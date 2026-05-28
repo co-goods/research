@@ -1,7 +1,8 @@
 ---
+template: blog-post
+template_version: 1.0.0
 slug: ""
 title: ""
-type: blog-post
 authors: []
 publishedAt: ""
 tags: []
@@ -20,7 +21,7 @@ updated: "{{date}}"
 ## ...post body...
 
 <!--
-Blog post schema (v1) — per p-002 architecture review ADR-008 / ADR-012.
+Blog post schema (template: blog-post, v1.0.0).
 
 - File location: `blog/<year>/<month>/<slug>.md`
   Year/month folders are for human file-tree navigation. URLs are flat at
