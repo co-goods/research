@@ -122,6 +122,17 @@ created: 2026-05-21
 updated: 2026-05-27
 ```
 
+### `license:` and `license_url:`
+
+Original content defaults to **CC BY-SA 4.0** — you don't declare it per item. Set `license:` (and optionally `license_url:`) only to **override** the default for a specific item:
+
+```yaml
+license: CC BY 4.0
+license_url: https://creativecommons.org/licenses/by/4.0/
+```
+
+Absent = the item inherits the site default. This is for the occasional item under a different (compatible) license. Note that **media carries its own license independently** — set that on the image/video block, not here (see `media.md`); and **library entries don't relicense the works they describe** — the record is first-party, the described work's rights are untouched. The licensing model is in `CONTRIBUTING.md`.
+
 ## Cross-cutting templates
 
 Composed pages, overlays, and plain pages declare `template:` + `template_version:` but no `collection:` (they're not items in a content collection):

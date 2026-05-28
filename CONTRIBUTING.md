@@ -84,10 +84,12 @@ See [`docs/conventions/wikilinks.md`](./docs/conventions/wikilinks.md).
 
 ## Assets (images and files)
 
-- **Small images or files** — include them in your PR. Drop into the same folder as your `.md` file or attach in the PR description. The maintainer will place them correctly at merge.
+Content media — diagrams, figures, charts, book covers — lives in an `assets/` folder next to the item that uses it, referenced with a local-style path (`./assets/<name>`). Add images and video to a page with the `image` and `video` blocks. For the full picture — where assets live, the blocks, and embeds vs self-hosted video — see [`docs/conventions/media.md`](./docs/conventions/media.md).
+
+- **Small images or files** — include them in your PR. Drop into the item's `assets/` folder (or attach in the PR description and the maintainer will place them at merge).
 - **Larger or many files** — include a download link in the PR description (any share that works for you). The maintainer downloads and places at merge.
 
-All images must come with attribution and license metadata compatible with CC BY-SA 4.0.
+Media you didn't create must carry attribution — set `credit` and `license` on the block — and the license must permit the use. See the licensing section below.
 
 ## Discussion
 
@@ -107,11 +109,17 @@ A Co-Goods core-team maintainer reviews each PR. Typical timeline:
 
 ## License
 
-This repository is licensed under the **Creative Commons Attribution-ShareAlike 4.0 International License** (CC BY-SA 4.0) — see [`LICENSE`](./LICENSE).
+Original first-party content **defaults to** the **Creative Commons Attribution-ShareAlike 4.0 International License** (CC BY-SA 4.0) — see [`LICENSE`](./LICENSE). The default is "unless otherwise noted": it applies to the prose you author (wiki, essays, glossary, and so on) without you declaring it per file.
 
-**By submitting a contribution, you agree it is licensed under the same terms as the project (CC BY-SA 4.0).** Inbound license matches outbound — no separate Contributor License Agreement (CLA). This matches the license of the DePalma Workshop Dictionary Schema (used by our glossary) and is the standard for open-innovation knowledge projects.
+**By submitting an original contribution, you agree it is licensed under the same terms as the project (CC BY-SA 4.0).** Inbound license matches outbound — no separate Contributor License Agreement (CLA). This matches the license of the DePalma Workshop Dictionary Schema (used by our glossary) and is the standard for open-innovation knowledge projects.
 
-If you're including external content (quotes, figures, etc.), ensure it's compatible with CC BY-SA 4.0 (public domain, CC-compatible, or fair-use citation). When in doubt, ask in the PR or on Discord.
+The default has three exceptions:
+
+- **Per-item override.** An item can declare its own `license:` in frontmatter to override the default — for a contribution under a different (compatible) license. See [`docs/conventions/frontmatter.md`](./docs/conventions/frontmatter.md).
+- **Media carries its own license.** An embedded video or reused image is licensed by *its* creator, not by us — set `credit` and `license` on the block and make sure the terms permit the use. See [`docs/conventions/media.md`](./docs/conventions/media.md).
+- **Library entries don't relicense the works they describe.** A book or paper entry's record and our commentary are first-party; the described work's own rights are untouched. Citing or quoting is fair-use citation, not relicensing.
+
+If you're including external content (quotes, figures, etc.), ensure it's compatible (public domain, CC-compatible, or fair-use citation). When in doubt, ask in the PR or on Discord.
 
 ---
 

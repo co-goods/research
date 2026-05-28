@@ -69,9 +69,24 @@ order: 20
 
 Filenames are slugs only; the `order:` field on each doc article sorts siblings within a collection (or sub-collection). Numbers in tens (10, 20, 30) leave room to insert without renumbering. See `taxonomy.md` and `frontmatter.md` for the doc article template.
 
+## Asset files
+
+Images and other media that are **part of the content** (diagrams, figures, charts, book covers) live in an `assets/` folder next to the item that uses them, and are referenced with a local-style path:
+
+```
+resources/wiki/network-coordination.md
+resources/wiki/assets/coordination-diagram.svg   →  ![](./assets/coordination-diagram.svg)
+```
+
+Asset filenames follow the same slug rules as everything else: **kebab-case, lowercase, hyphen-separated**, descriptive and stable. Keep the extension (`.svg`, `.png`, `.jpg`, `.mp4`). Don't rename an asset once content references it — it breaks the reference.
+
+- **Reports** keep their per-version `assets/` folders with cascading lookup — a version's `assets/` holds only what changed in that version. (Unchanged here.)
+- **Presentation imagery** (hero backgrounds, decorative site images) is *not* a content asset — it lives in the website repo's `public/`, not in a content `assets/` folder. See `media.md` for the content-vs-presentation split.
+
 ## Related conventions
 
 - **Taxonomy** (collections, items, templates): see `taxonomy.md`.
 - **Frontmatter contract** (universal + per-template fields): see `frontmatter.md`.
 - **Templates and versioning** (semver, archive workflow): see `templates-and-versioning.md`.
 - **Wikilinks** (qualified-path syntax): see `wikilinks.md`.
+- **Images and video** (media blocks, asset location): see `media.md`.
