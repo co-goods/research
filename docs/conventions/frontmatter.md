@@ -124,13 +124,23 @@ updated: 2026-05-27
 
 ### `discord:`
 
-An optional URL to a Discord channel or thread where this page is discussed. When set, the page shows a "Discuss on Discord" link next to "Edit this page on GitHub":
+An optional reference to where this page is discussed on Discord. It accepts **either a full URL or a channel key**:
 
 ```yaml
+# A full URL — a specific channel or thread:
 discord: https://discord.com/channels/<server>/<channel-or-thread>
+
+# Or a key — resolves to a configured channel invite:
+discord: research        # one of: research, calls, thinking, resources, invite
 ```
 
-Use it on pages that have a dedicated discussion going. Absent = no Discord link on that page (the community Discord is always linked in the site footer).
+The page's "Discuss on Discord" link (next to "Edit this page on GitHub") always resolves, in this order:
+
+1. the item's own `discord:` (the URL or key above), else
+2. the channel for the page's **area** — items under `thinking/` → the thinking channel, `resources/` → resources, `research/` → research, else
+3. the **general** server invite.
+
+So you only set `discord:` when a page has a *specific* discussion that differs from its area's channel. The keys and their invites are configured site-side (env-backed); a contributor just uses the key or a URL.
 
 ### `license:` and `license_url:`
 
