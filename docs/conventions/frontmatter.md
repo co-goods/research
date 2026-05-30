@@ -147,11 +147,13 @@ So you only set `discord:` when a page has a *specific* discussion that differs 
 Original content defaults to **CC BY-SA 4.0** — you don't declare it per item. Set `license:` (and optionally `license_url:`) only to **override** the default for a specific item:
 
 ```yaml
-license: CC BY 4.0
+license: CC-BY-4.0
 license_url: https://creativecommons.org/licenses/by/4.0/
 ```
 
-Absent = the item inherits the site default. This is for the occasional item under a different (compatible) license. Note that **media carries its own license independently** — set that on the image/video block, not here (see `media.md`); and **library entries don't relicense the works they describe** — the record is first-party, the described work's rights are untouched. The licensing model is in `CONTRIBUTING.md`.
+Write the value as an **SPDX identifier** — the standard short code for a license (`CC-BY-4.0`, `CC-BY-SA-4.0`, `CC0-1.0`, `MIT`, …). It's unambiguous and machine-readable, and the site renders a friendly, linked label from it, so `license_url:` is optional.
+
+Absent = the item inherits the site default. This is for the occasional item under a different (compatible) license. Note that **media carries its own license independently** — set that on the image/video block, not here (see `media.md`); and **library entries don't relicense the works they describe** — the record is first-party, the described work's rights are untouched. The full licensing model is in [`licensing.md`](./licensing.md).
 
 ## Cross-cutting templates
 
