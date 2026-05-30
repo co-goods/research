@@ -75,4 +75,4 @@ By making a contribution to this project, I certify that:
 
 ## Why we use it
 
-The DCO keeps contribution friction low while giving a clear, on-the-record provenance trail: every contribution carries an attestation that the contributor had the right to submit it. See also the forthcoming [CLA](./cla.md) and the [licensing model](./licensing.md).
+The DCO keeps contribution friction low while giving a clear, on-the-record provenance trail: every contribution carries an attestation that the contributor had the right to submit it. See also the forthcoming [[docs/conventions/cla|CLA]] and the [[docs/conventions/licensing|licensing model]].
