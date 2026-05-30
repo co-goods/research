@@ -27,7 +27,7 @@ Licensing here isn't one-size-fits-all — different kinds of material carry dif
 
 Original first-party content — the prose we author: wiki articles, glossary entries, essays, research — defaults to the **Creative Commons Attribution-ShareAlike 4.0 International** license (CC BY-SA 4.0).
 
-The default is stated once — in the repository's [`LICENSE`](../../LICENSE), the site footer, and [`CONTRIBUTING.md`](../../CONTRIBUTING.md) — so you don't repeat it on every file. Share-alike means anyone may reuse and adapt the work, including commercially, as long as they credit it and license their adaptation under the same terms. That's what keeps the commons a commons.
+The default is stated once — in the repository's `LICENSE`, the site footer, and [CONTRIBUTING](/contributing) — so you don't repeat it on every file. Share-alike means anyone may reuse and adapt the work, including commercially, as long as they credit it and license their adaptation under the same terms. That's what keeps the commons a commons.
 
 ## Per-collection notes
 
@@ -36,11 +36,11 @@ The default is stated once — in the repository's [`LICENSE`](../../LICENSE), t
 
 ## Overriding the default on one item
 
-To license a single item differently, set `license:` (and optionally `license_url:`) in its frontmatter. Absent = the item inherits the default. This is for the occasional piece under a different, compatible license, or content with a specific provenance. See [`frontmatter.md`](./frontmatter.md) for the field — the value is an SPDX identifier (e.g. `CC-BY-4.0`).
+To license a single item differently, set `license:` (and optionally `license_url:`) in its frontmatter. Absent = the item inherits the default. This is for the occasional piece under a different, compatible license, or content with a specific provenance. See [[docs/conventions/frontmatter|frontmatter]] for the field — the value is an SPDX identifier (e.g. `CC-BY-4.0`).
 
 ## Media carries its own license
 
-Images and video are licensed **independently** of the item they appear in — an embedded video carries the platform's or creator's terms; a photo carries its own. Declare a media license on the `image` / `video` block, not in the item frontmatter — see [`media.md`](./media.md). Media you didn't create must carry a credit and a license that permits the use.
+Images and video are licensed **independently** of the item they appear in — an embedded video carries the platform's or creator's terms; a photo carries its own. Declare a media license on the `image` / `video` block, not in the item frontmatter — see [[docs/conventions/media|media]]. Media you didn't create must carry a credit and a license that permits the use.
 
 ## Works we reference (the library)
 
@@ -62,7 +62,7 @@ CC BY-SA 4.0 governs *content*. The website's code carries its own license — s
 
 ## Contributing your own work
 
-When you contribute, the contribution terms are in [`CONTRIBUTING.md`](../../CONTRIBUTING.md). In short: contribute work that is yours to contribute, make sure any media or third-party material you include is properly licensed for the use, and credit sources.
+When you contribute, the contribution terms are in [CONTRIBUTING](/contributing). In short: contribute work that is yours to contribute, make sure any media or third-party material you include is properly licensed for the use, and credit sources.
 
 ## Not legal advice
 

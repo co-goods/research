@@ -18,7 +18,7 @@ updated: 2026-05-30
 
 ## What we intend
 
-Alongside the [DCO sign-off](./dco.md), we intend to introduce a **light, license-based Contributor License Agreement** for substantial contributions. The shape we're aiming for:
+Alongside the [[docs/conventions/dco|DCO sign-off]], we intend to introduce a **light, license-based Contributor License Agreement** for substantial contributions. The shape we're aiming for:
 
 - **You keep your copyright.** This is *not* a copyright assignment.
 - **You grant a broad, sublicensable, and transferable license** to your contribution — so the project can relicense or dual-license if it ever needs to, and stewardship can move cleanly to a future entity.
@@ -30,7 +30,7 @@ A bare "your contribution is under the same license as the project" model is the
 
 ## Where this is heading
 
-Our intention is to **transfer stewardship of the project to a neutral foundation** in time. The CLA's transferable grant is what makes that handover clean. Until the CLA is finalized, contributions are accepted under the project's stated license (see [licensing](./licensing.md)) with the [DCO](./dco.md) sign-off.
+Our intention is to **transfer stewardship of the project to a neutral foundation** in time. The CLA's transferable grant is what makes that handover clean. Until the CLA is finalized, contributions are accepted under the project's stated license (see [[docs/conventions/licensing|licensing]]) with the [[docs/conventions/dco|DCO]] sign-off.
 
 ## Not legal advice
 
