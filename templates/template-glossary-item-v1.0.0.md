@@ -1,6 +1,7 @@
 ---
 template: glossary-item
 template_version: 1.0.0
+collection: glossary
 slug: ""
 name: ""
 classes: []
@@ -9,6 +10,7 @@ relationships:
 links: []
 sources: []
 status: active
+stage: draft
 created: "{{date}}"
 updated: "{{date}}"
 ---
